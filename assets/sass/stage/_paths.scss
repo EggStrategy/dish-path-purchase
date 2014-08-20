@@ -1,0 +1,56 @@
+
+.stage-paths {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 61px;
+  height: 100%;
+  margin-left: -30px;
+}
+
+.stage-mood {
+  @include horizontal-center(absolute);
+  top: 50px;
+  z-index: 10;
+  
+  .mood {
+    @include font-size(14px);
+    padding: 4px 8px;
+    background: $lt-grey;
+    border: 5px solid $dk-grey;
+    color: $dk-grey;
+    line-height: 1;
+    font-weight: $bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+}
+
+.stage-paths [class*="path-"] {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+}
+
+.stage-paths {
+  .path-1 {
+    left: 9px;
+    background: $purple;
+  }
+  
+  .path-2 {
+    left: 22px;
+    background: $orange;
+  }
+  
+  .path-3 {
+    right: 22px;
+    background: $lime;
+  }
+  
+  .path-4 {
+    right: 9px;
+    background: $blue;
+  }
+}

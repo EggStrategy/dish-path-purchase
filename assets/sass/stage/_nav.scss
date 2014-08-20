@@ -1,0 +1,85 @@
+
+
+#fp-nav {
+  position: fixed;
+  z-index: 100;
+  margin-top: -32px;
+  top: 50%;
+  opacity: 1;
+  left: 20px;
+}
+
+#fp-nav a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: $lt-green;
+  
+  &.active {
+    background: #fff;
+    border: 3px solid $lt-green;
+  }
+
+  span:before {
+    @include font-size(12px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: $bold;
+    font-style: italic;
+    text-align: center;
+  }
+}
+
+#fp-nav .active span:before {
+  color: $lt-green;
+}
+
+#fp-nav li {
+  position: relative;
+  margin-bottom: 30px;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+#fp-nav li:nth-child(1) span:before {
+  content: "5";
+}
+
+#fp-nav li:nth-child(2) span:before {
+  content: "4";
+}
+
+#fp-nav li:nth-child(3) span:before {
+  content: "3";
+}
+
+#fp-nav li:nth-child(4) span:before {
+  content: "2";
+}
+
+#fp-nav li:nth-child(5) span:before {
+  content: "1";
+}
+
+#fp-nav li:nth-child(6) span:before {
+  content: "B";
+}
+
+.fp-tooltip {
+  @include font-size(14px);
+  position: absolute;
+  top: 0;
+  left: 30px;
+  color: $lt-green;
+  font-family: $sans;
+  white-space: nowrap;
+  max-width: 220px;
+  text-transform: uppercase;
+}
+

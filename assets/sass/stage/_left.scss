@@ -1,0 +1,39 @@
+
+.triggers {
+  position: absolute;
+  top: 70px;
+  right: 140px;
+  color: $green;
+  text-align: right;
+}
+
+.barriers {
+  position: absolute;
+  bottom: 200px;
+  left: 140px;
+  color: $red;
+  
+  li {
+    font-weight: $bold;
+  }
+}
+
+.triggers h2,
+.barriers h2 {
+  margin-bottom: 6px;
+}
+
+.triggers li,
+.barriers li {
+  @include font-size(14px);
+  @include line-height(24px);
+}
+
+.arrow-triggers {
+  position: absolute;
+  top: -50px;
+  right: -100px;
+  background: $arrow-triggers no-repeat;
+  width: 80px;
+  height: 297px;
+}

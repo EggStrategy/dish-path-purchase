@@ -1,0 +1,61 @@
+a {
+	@include transition(all 0.15s ease-in);
+	color: $orange;
+}
+
+/*
+
+.btn {
+  display: block;
+  padding: 0.75em 1.25em;
+  background: $blue;
+  border-radius: 5px;
+  color: #fff;
+  font: $semi 1em/1 $sans;
+  text-transform: uppercase;
+  text-align: center;
+  
+  &:hover {
+    background: $dk-blue;
+    color: #fff;
+  }
+  
+  @include bp-min-width($medium) {
+    display: inline-block;
+  }
+  
+  &.red {
+    background: $red;
+    &:hover {
+      background: $dk-red;
+    }
+  }
+  
+  &.green {
+    background: $green;
+    &:hover {
+      background: $dk-green;
+    }
+  }
+  
+  &.orange {
+    background: $orange;
+    &:hover {
+      background: $dk-orange;
+    }
+  }
+  
+  &.white {
+    background: #fff;
+    color: $navy;
+    &:hover {
+      background: $lt-grey;
+    }
+  }
+    
+}
+
+.btn-large {
+  font-size: 24px;
+}
+*/

@@ -1,0 +1,203 @@
+
+.form-block {
+  margin-bottom: $base;
+}
+
+.form-item,
+.form-item-set {
+  margin-bottom: 12px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.form-item-set .form-item {
+  margin-bottom: 0;
+}
+
+.form-two-col {
+  @include cf;
+  
+  .form-item {
+    float: left;
+    width: 42%;
+    margin-right: 4%;
+    
+    @include bp-max-width($xsmall) {
+      float: none;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5em 0.75em;
+  border: 1px solid $grey;
+  border-radius: 5px;
+  font: 400 1em/1em $sans;
+  
+  @include bp-min-width($medium) {
+    max-width: 380px;
+  }
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border: 1px solid $dk-grey;
+}
+
+textarea {
+  height: $base*4;
+  resize: none;
+  
+  @include bp-min-width($medium) {
+    height: $base*6;
+    max-width: 540px;
+  }
+}
+
+
+/** Select ============**/
+
+.form-select {
+  position: relative;
+  
+  @include bp-min-width($medium) {
+    display: inline-block;
+    width: 100%;
+    max-width: 380px;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 17px;
+    right: 17px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $navy;
+  }
+  
+}
+
+
+.form-select select {
+  @include appearance(none);
+  font-family: $sans;
+  text-indent: 0.01px;
+  text-overflow: '';
+  
+  @include bp-max-width($large) {
+    padding-left: 10px;
+  }
+}
+
+
+/** Fieldset ============**/
+
+fieldset {
+  margin-bottom: $base*2;
+
+  &:last-of-type {
+    margin-bottom: $base;
+  }
+}
+
+fieldset .title,
+.order-summary .title {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid $grey;
+  font: $book 24px/1 $sans;
+}
+
+
+/** Checkboxes ============**/
+
+.form-checkbox {
+  position: relative;
+  margin-bottom: 0.5em;
+
+  input {
+    opacity: 0;
+    float: left;
+    width: 20px;
+  }
+}
+
+.form-checkbox label {
+  padding-left: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    background: $grey;
+    border-radius: 3px;
+  }
+
+  .description {
+    display: block;
+    color: $grey;
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+.form-checkbox input[type="checkbox"]:checked + label:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 15px;
+}
+
+.checkboxes input {
+  opacity: 0;
+  float: left;
+  width: 20px;
+}
+
+
+/** Radio ============**/
+
+.form-radio {
+  label, input {
+    display: inline-block;
+  }
+}
+
+
+/** Buttons ============**/
+
+input[type="submit"],
+button {
+  @include transition(background 0.15s ease-in);
+  border: none;
+  font: $semi 1em/1.5em $sans;
+  cursor: pointer;
+  
+  @include bp-max-width($small) {
+    width: 100%;
+  }
+}

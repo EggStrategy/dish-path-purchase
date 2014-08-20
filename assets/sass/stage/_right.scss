@@ -1,0 +1,43 @@
+
+.stage-position {
+  @include font-size(16px);
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.stage-title {
+  margin-bottom: 10px;
+}
+
+.doing-thinking {
+  padding-top: 20px;
+  
+  .col {
+    float: left;
+    width: 50%;
+    padding-right: 60px;
+  }
+  
+  h3 {
+    margin-bottom: 6px;
+  }
+  
+  p {
+    @include font-size(12px);
+    @include line-height(18px);
+    margin-bottom: 12px;
+  }
+}
+
+.doing-thinking li {
+  position: relative;
+  @include font-size(14px);
+  @include line-height(21px);
+  margin-bottom: 24px;
+}
+
+.doing-thinking [class*="arrow-"] {
+  position: absolute;
+  top: 4px;
+  left: -36px;
+}

@@ -1,0 +1,39 @@
+
+.timeline {
+  @include background-image(linear-gradient(#fff, $turq, #fff));
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  
+  .time-length {
+    @include transform(translate(-50%, -50%) rotate(-90deg));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    padding-left: 62px;
+    text-align: center;
+    
+    .label {
+      text-transform: uppercase;
+    }
+  }
+  
+  .time-span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 100%;
+    background: repeating-linear-gradient(
+      to bottom,
+      #fff,
+      #fff 2px,
+      transparent 2px,
+      transparent 20px
+    );
+    background-size: 100% 12px;
+  }
+}

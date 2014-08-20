@@ -1,0 +1,79 @@
+@mixin cf {
+  &:before, &:after {
+    content: " ";
+    display: block;
+  }
+  &:after {
+    clear: both;
+  }
+  *zoom:1;
+}
+
+// ANIMATIONS
+@mixin keyframes($name) {
+    @-webkit-keyframes $name { @content; }
+    @-moz-keyframes $name { @content; }
+    @-o-keyframes $name { @content; }
+    @-keyframes $name { @content; }
+}
+
+@mixin animation($content) {
+    -webkit-animation: $content;
+    -moz-animation: $content;
+    -o-animation: $content;
+    animation: $content;
+}
+
+// CENTER ALIGN
+@mixin vertical-center($position) {
+  @include translateY(-50%);
+  position: $position;
+  top: 50%;
+}
+
+@mixin horizontal-center($position) {
+  @include translateX(-50%);
+  position: $position;
+  left: 50%;
+}
+
+@mixin absolute-center {
+  @include translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+// REMs
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin line-height($size) {
+  line-height: $size;
+  line-height: calculateRem($size);
+}
+
+// TRIANGLE
+@mixin down-triangle($size, $color) {
+  width: 0;
+  height: 0;
+  border-left: $size solid transparent;
+  border-right: $size solid transparent;
+  border-top: $size solid $color;
+}
+
+@mixin up-triangle($size, $color) {
+  width: 0;
+  height: 0;
+  border-left: $size solid transparent;
+  border-right: $size solid transparent;
+  border-bottom: $size solid $color;
+}
