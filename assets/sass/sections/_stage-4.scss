@@ -1,0 +1,18 @@
+
+.stage-4 .stage-left {
+  background: $bg-s4 no-repeat right top;
+}
+
+.stage-4 .paths-circles {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 658px;
+  height: 612px;
+  background: $paths-circles-s4 no-repeat;
+}
+
+.stage-4 .barriers {
+  top: 630px;
+  right: 280px;
+}

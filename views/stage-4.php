@@ -3,6 +3,8 @@
 
   <div class="stage-left">
   
+    <div class="paths-circles"></div>
+  
     <div class="triggers fadeInUp animated">
       <h2>Triggers</h2>
       <ul>
@@ -61,7 +63,7 @@
       <div class="mood">Determined</div>
     </div>
     
-    <div class="path-1" data-segment="indulgers"></div>
+<!--     <div class="path-1" data-segment="indulgers"></div> -->
     <div class="path-2" data-segment="enthusiasts"></div>
     <div class="path-3" data-segment="flexibles"></div>
     <div class="path-4" data-segment="traditionals"></div>

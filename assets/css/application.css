@@ -1194,3 +1194,21 @@ html, body {
   top: 250px;
   right: 20px;
 }
+
+.stage-4 .stage-left {
+  background: url('/assets/images/bg-s4.png?1408657272') no-repeat right top;
+}
+
+.stage-4 .paths-circles {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 658px;
+  height: 612px;
+  background: url('/assets/images/paths-circles-s4.png?1408656901') no-repeat;
+}
+
+.stage-4 .barriers {
+  top: 630px;
+  right: 280px;
+}
