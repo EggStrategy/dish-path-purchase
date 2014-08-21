@@ -1,3 +1,5 @@
+</div>
+
 <footer class="stage-footer">
   <a href="" class="recomend-link">Recommendations</a>
 

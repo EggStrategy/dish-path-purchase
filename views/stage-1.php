@@ -3,7 +3,7 @@
 
   <div class="stage-left">
   
-    <div class="triggers fadeInUp animated">
+    <div class="triggers">
       <h2>Triggers</h2>
       <ul>
         <li>Bundling with high-speed internet</li>
@@ -15,11 +15,21 @@
     <div class="barriers">
       <h2>Barriers</h2>
       <ul>
-        <li>Current provider</li>
-        <li>unwilling to compromise</li>
+        <li>Current provider unwilling to compromise</li>
         <li>Retention Opportunity</li>
         <li>Upcoming contract expiration</li>
       </ul>
+    </div>
+  
+    <div class="triggers violations">
+      <h2>Motivational Violations</h2>
+      <ul>
+        <li>Unexpected price increase</li>
+        <li>Content interruptions</li>
+        <li>Services issues</li>
+        <li>Poor customer service interaction</li>
+      </ul>
+      <div class="arrow-triggers"></div>
     </div>
   
   </div>

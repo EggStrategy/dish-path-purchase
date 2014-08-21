@@ -13,22 +13,16 @@ $(function(){
       }
     });
     
-    
   }
   
-
   $('#fullpage').fullpage({
+    css3: true,
     navigation: true,
     navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro'],
 
-    afterRender: function(index){
-      if($(index).length !== 0) {
-        $('.stage-footer').addClass('active');
-      }
-      
+    afterRender: function(index){      
       if(index == 2) {
       }
-      
     }
     
   });

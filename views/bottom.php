@@ -27,39 +27,6 @@
     <h3 class="label">Traditionals &amp; Practicals:</h3>
     <p>Low category engagement, relies on live programming.</p>
     <p>Motivation: Spend time together as a family, background noise.</p>
-  </div>
-  
-  <div class="triggers fadeInUp animated">
-    <h2>Triggers</h2>
-    <ul>
-      <li>Unexpected price increase</li>
-      <li>Content interruptions</li>
-      <li>Services issues</li>
-      <li>Poor customer service interaction</li>
-    </ul>
-    <div class="arrow-triggers"></div>
-  </div>
-  
+  </div>  
     
 </section>
-
-<!--
-  <div class="stage-paths">
-  
-    <div class="stage-mood">
-      <div class="icon-"></div>
-      <div class="mood">Frustrated</div>
-    </div>
-    
-    <div class="path-1" data-segment="indulgers"></div>
-    <div class="path-2" data-segment="enthusiasts"></div>
-    <div class="path-3" data-segment="flexibles"></div>
-    <div class="path-4" data-segment="traditionals"></div>
-    
-  </div>
-  
-  <div class="timeline">
-    <div class="time-length">Timeline: <span class="label">ongoing</span></div>
-    <div class="time-span"></div>
-  </div>
--->
