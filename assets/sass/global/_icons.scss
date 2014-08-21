@@ -33,13 +33,25 @@
   background: $bubbles no-repeat;
 }
 
+.circle-stay-s3 {
+/*   width: 128px; */
+  width: 251px;
+  height: 173px;
+  background: $circle-stay-s3 no-repeat;
+}
 
 [class*="arrow-"] {
   display: inline-block;
 }
 
+.arrow-left-purple-s3 {
+  width: 117px;
+  height: 11px;
+  background: $arrow-left-purple-s3 no-repeat;
+}
+
 [class*="arrow-thinking-"] {
-  background: $arrows no-repeat 0 0;
+  background: $arrows no-repeat;
   width: 31px;
   height: 11px;
 }

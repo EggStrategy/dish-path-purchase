@@ -193,12 +193,25 @@ em {
   background: url('/assets/images/bubbles.png?1408641804') no-repeat;
 }
 
+.circle-stay-s3 {
+  /*   width: 128px; */
+  width: 251px;
+  height: 173px;
+  background: url('/assets/images/circle-stay-s3.png?1408643525') no-repeat;
+}
+
 [class*="arrow-"] {
   display: inline-block;
 }
 
+.arrow-left-purple-s3 {
+  width: 117px;
+  height: 11px;
+  background: url('/assets/images/arrow-left-purple-s3.png?1408642816') no-repeat;
+}
+
 [class*="arrow-thinking-"] {
-  background: url('/assets/images/arrows.svg?1408637448') no-repeat 0 0;
+  background: url('/assets/images/arrows.svg?1408637448') no-repeat;
   width: 31px;
   height: 11px;
 }
@@ -1161,4 +1174,23 @@ html, body {
 .stage-2 .barriers {
   top: 460px;
   right: 230px;
+}
+
+.stage-3 .stage-left {
+  background: url('/assets/images/bg-s3.png?1408642667') no-repeat right top;
+}
+
+.stage-3 .triggers {
+  top: 84px;
+}
+
+.stage-3 .barriers {
+  top: 460px;
+  right: 170px;
+}
+
+.stay-s3 {
+  position: absolute;
+  top: 250px;
+  right: 20px;
 }

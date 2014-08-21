@@ -23,6 +23,10 @@
         <li>Lack of consensus in HH</li>
       </ul>
     </div>
+    
+    <div class="stay-s3">
+      <div class="circle-stay-s3"></div>
+    </div>
   
   </div>
   
