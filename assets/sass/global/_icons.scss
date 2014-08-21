@@ -27,13 +27,19 @@
   background: $icon-traditionals no-repeat;
 }
 
+.bubbles {
+  width: 82px;
+  height: 303px;
+  background: $bubbles no-repeat;
+}
+
 
 [class*="arrow-"] {
   display: inline-block;
-  background: $arrows no-repeat 0 0;
 }
 
 [class*="arrow-thinking-"] {
+  background: $arrows no-repeat 0 0;
   width: 31px;
   height: 11px;
 }
@@ -46,27 +52,18 @@
   background-position: 0 -27px;
 }
 
-
 .arrow-thinking-4 {
   background-position: 0 -42px;
 }
 
 
-/*
-[class*="icon-"] {
-  display: inline-block;
-  background: $sprite no-repeat 0 0;
-}
-  
-.icon-twitter {
-  width: 26px;
-  height: 21px;
-  background-position: 0 -350px;
+/** Fountain Arrows **/
+
+.arrow-down-s1 {
+  width: 168px;
+  height: 188px;
+  background: $arrow-down-s1 no-repeat;
 }
 
-.icon-facebook {
-  width: 13px;
-  height: 22px;
-  background-position: 0 -374px;
-}
-*/
+
+

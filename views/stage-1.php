@@ -24,12 +24,16 @@
     <div class="triggers violations">
       <h2>Motivational Violations</h2>
       <ul>
+        <li>Poor customer service interaction</li>
         <li>Unexpected price increase</li>
         <li>Content interruptions</li>
         <li>Services issues</li>
-        <li>Poor customer service interaction</li>
       </ul>
       <div class="arrow-triggers"></div>
+    </div>
+    
+    <div class="pool">
+      <p>Passive Dissatisfaction Pool</p>
     </div>
   
   </div>

@@ -9,12 +9,18 @@
 
 .barriers {
   position: absolute;
-  bottom: 200px;
-  left: 140px;
+  top: 160px;
+  right: 240px;
   color: $red;
   
   li {
     font-weight: $bold;
+  }
+  
+  [class*="arrow-"] {
+    position: absolute;
+    top: 10px;
+    left: -90px;
   }
 }
 
@@ -32,7 +38,7 @@
 .arrow-triggers {
   position: absolute;
   top: -50px;
-  right: -100px;
+  right: -90px;
   background: $arrow-triggers no-repeat;
   width: 80px;
   height: 297px;

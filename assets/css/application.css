@@ -187,12 +187,18 @@ em {
   background: url('/assets/images/icon-traditionals.svg?1408637448') no-repeat;
 }
 
+.bubbles {
+  width: 82px;
+  height: 303px;
+  background: url('/assets/images/bubbles.png?1408641804') no-repeat;
+}
+
 [class*="arrow-"] {
   display: inline-block;
-  background: url('/assets/images/arrows.svg?1408637448') no-repeat 0 0;
 }
 
 [class*="arrow-thinking-"] {
+  background: url('/assets/images/arrows.svg?1408637448') no-repeat 0 0;
   width: 31px;
   height: 11px;
 }
@@ -209,24 +215,13 @@ em {
   background-position: 0 -42px;
 }
 
-/*
-[class*="icon-"] {
-  display: inline-block;
-  background: $sprite no-repeat 0 0;
-}
-  
-.icon-twitter {
-  width: 26px;
-  height: 21px;
-  background-position: 0 -350px;
+/** Fountain Arrows **/
+.arrow-down-s1 {
+  width: 168px;
+  height: 188px;
+  background: url('/assets/images/arrow-down-s1.png?1408641114') no-repeat;
 }
 
-.icon-facebook {
-  width: 13px;
-  height: 22px;
-  background-position: 0 -374px;
-}
-*/
 /* 36px*/
 .grid {
   *zoom: 1;
@@ -576,12 +571,17 @@ html, body {
 
 .barriers {
   position: absolute;
-  bottom: 200px;
-  left: 140px;
+  top: 160px;
+  right: 240px;
   color: #d83945;
 }
 .barriers li {
   font-weight: 700;
+}
+.barriers [class*="arrow-"] {
+  position: absolute;
+  top: 10px;
+  left: -90px;
 }
 
 .triggers h2,
@@ -600,7 +600,7 @@ html, body {
 .arrow-triggers {
   position: absolute;
   top: -50px;
-  right: -100px;
+  right: -90px;
   background: url('/assets/images/arrow-triggers.png?1408637448') no-repeat;
   width: 80px;
   height: 297px;
@@ -1123,12 +1123,29 @@ html, body {
   padding-top: 200px;
 }
 
+.stage-1 .stage-left {
+  background: url('/assets/images/bg-s1.png?1408641583') no-repeat right top;
+}
+
+.stage-1 .triggers {
+  top: 84px;
+}
+
 .stage-1 .barriers {
-  top: auto;
-  bottom: 400px;
+  top: 194px;
+  right: 210px;
 }
 
 .stage-1 .violations {
-  top: auto;
-  bottom: 180px;
+  top: 476px;
+}
+
+.stage-1 .pool {
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: absolute;
+  right: 180px;
+  bottom: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
