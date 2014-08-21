@@ -36,15 +36,15 @@
 
 .stage-left {
   left: 0;
-  padding: 40px 20px 40px 80px;
-  border-right: 30.5px solid $grey;
+  margin-right: 30px;
+  padding: 40px 50px 40px 80px;
 }
 
 .stage-right {
   right: 0;
+  margin-left: 30px;
   padding: 40px 80px 40px 60px;
   background: #fff;
-  border-left: 31px solid $grey;
 }
 
 [data-segment] {

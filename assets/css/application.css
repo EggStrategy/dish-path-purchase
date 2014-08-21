@@ -552,15 +552,15 @@ html, body {
 
 .stage-left {
   left: 0;
-  padding: 40px 20px 40px 80px;
-  border-right: 30.5px solid #6b6a6a;
+  margin-right: 30px;
+  padding: 40px 50px 40px 80px;
 }
 
 .stage-right {
   right: 0;
+  margin-left: 30px;
   padding: 40px 80px 40px 60px;
   background: #fff;
-  border-left: 31px solid #6b6a6a;
 }
 
 [data-segment] {
@@ -580,6 +580,7 @@ html, body {
   right: 140px;
   color: #438e47;
   text-align: right;
+  font-weight: 700;
 }
 
 .barriers {
@@ -587,8 +588,6 @@ html, body {
   top: 160px;
   right: 240px;
   color: #d83945;
-}
-.barriers li {
   font-weight: 700;
 }
 .barriers [class*="arrow-"] {
@@ -753,6 +752,7 @@ html, body {
   width: 61px;
   height: 100%;
   margin-left: -30px;
+  background: #4c4c4e;
 }
 
 .stage-mood {
@@ -1196,7 +1196,7 @@ html, body {
 }
 
 .stage-4 .stage-left {
-  background: url('/assets/images/bg-s4.png?1408657272') no-repeat right top;
+  background: url('/assets/images/bg-s4.png?1408658389') no-repeat right top;
 }
 
 .stage-4 .paths-circles {
@@ -1205,10 +1205,73 @@ html, body {
   right: 0;
   width: 658px;
   height: 612px;
-  background: url('/assets/images/paths-circles-s4.png?1408656901') no-repeat;
+  background: url('/assets/images/paths-circles-s4.png?1408657348') no-repeat;
+}
+
+.stage-4 .triggers {
+  top: 60px;
 }
 
 .stage-4 .barriers {
   top: 630px;
   right: 280px;
+}
+
+.stage-5 .stage-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/bg-s5.png?1408659380') no-repeat center top;
+}
+
+.stage-5 .stage-right,
+.stage-5 .stage-paths {
+  margin-top: 389px;
+}
+
+.stage-5 .stage-right {
+  padding-top: 28px;
+}
+
+.stage-5 .stage-left {
+  border: none;
+}
+
+.stage-5 .circles {
+  position: absolute;
+  top: 0;
+  right: 300px;
+  width: 355px;
+  height: 384px;
+  background: url('/assets/images/circles-s5.png?1408661817') no-repeat;
+}
+
+.stage-5 .arrows {
+  position: absolute;
+  top: 396px;
+  right: 466px;
+  width: 25px;
+  height: 100%;
+  background: url('/assets/images/arrows-s5.png?1408662046') no-repeat;
+}
+
+.stage-5 .triggers {
+  top: 60px;
+  right: 90px;
+  text-align: left;
+}
+
+.stage-5 .barriers {
+  top: 560px;
+  right: 120px;
+}
+
+.stage-5 .urgency-note {
+  font-size: 12px;
+  font-size: 0.75rem;
+  clear: both;
+  padding-top: 20px;
+  font-style: italic;
 }

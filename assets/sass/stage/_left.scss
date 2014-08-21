@@ -5,6 +5,7 @@
   right: 140px;
   color: $green;
   text-align: right;
+  font-weight: $bold;
 }
 
 .barriers {
@@ -12,10 +13,7 @@
   top: 160px;
   right: 240px;
   color: $red;
-  
-  li {
-    font-weight: $bold;
-  }
+  font-weight: $bold;
   
   [class*="arrow-"] {
     position: absolute;
