@@ -16,7 +16,9 @@ $(function(){
   }
   
   $('#fullpage').fullpage({
-    css3: true,
+/*     css3: true, */
+    scrollingSpeed: 700,
+    easing: 'swing',
     navigation: true,
     navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro'],
 

@@ -27,6 +27,6 @@
     <h3 class="label">Traditionals &amp; Practicals:</h3>
     <p>Low category engagement, relies on live programming.</p>
     <p>Motivation: Spend time together as a family, background noise.</p>
-  </div>  
+  </div>
     
 </section>

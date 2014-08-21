@@ -554,6 +554,7 @@ html, body {
   left: 0;
   margin-right: 30px;
   padding: 40px 50px 40px 80px;
+  border-right: 30px solid #4c4c4e;
 }
 
 .stage-right {
@@ -561,6 +562,7 @@ html, body {
   margin-left: 30px;
   padding: 40px 80px 40px 60px;
   background: #fff;
+  border-left: 30px solid #4c4c4e;
 }
 
 [data-segment] {
@@ -1233,6 +1235,7 @@ html, body {
 
 .stage-5 .stage-right {
   padding-top: 28px;
+  border: none;
 }
 
 .stage-5 .stage-left {
