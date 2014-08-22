@@ -691,6 +691,8 @@ html, body {
 }
 
 #fp-nav a {
+  position: relative;
+  z-index: 20;
   display: block;
   width: 24px;
   height: 24px;
@@ -715,6 +717,7 @@ html, body {
 }
 
 #fp-nav .active span:before {
+  top: -3px;
   color: #0fba70;
 }
 
@@ -758,10 +761,15 @@ html, body {
   font-size: 14px;
   font-size: 0.875rem;
   position: absolute;
-  top: 0;
-  left: 30px;
-  color: #0fba70;
+  top: -2px;
+  left: -2px;
+  padding: 2px 10px 2px 34px;
+  background: #fff;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: #4c4c4e;
   font-family: "Open Sans", Helvetica, arial, sans-serif;
+  font-weight: 700;
   white-space: nowrap;
   max-width: 220px;
   text-transform: uppercase;

@@ -10,6 +10,8 @@
 }
 
 #fp-nav a {
+  position: relative;
+  z-index: 20;
   display: block;
   width: 24px;
   height: 24px;
@@ -35,6 +37,7 @@
 }
 
 #fp-nav .active span:before {
+  top: -3px;
   color: $lt-green;
 }
 
@@ -79,10 +82,15 @@
 .fp-tooltip {
   @include font-size(14px);
   position: absolute;
-  top: 0;
-  left: 30px;
-  color: $lt-green;
+  top: -2px;
+  left: -2px;
+  padding: 2px 10px 2px 34px;
+  background: #fff;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: $dk-grey;
   font-family: $sans;
+  font-weight: $bold;
   white-space: nowrap;
   max-width: 220px;
   text-transform: uppercase;
