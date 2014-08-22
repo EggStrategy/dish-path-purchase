@@ -1,7 +1,7 @@
 </div>
 
 <footer class="stage-footer">
-  <a href="" class="recomend-link">Recommendations</a>
+  <a href="" class="recomend-link"><span class="icon-recommendations"></span> Recommendations</a>
 
   <nav class="segment-nav">
     <a href="" data-segment="all" class="active">All Segments</a>

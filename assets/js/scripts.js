@@ -1,19 +1,4 @@
 $(function(){
-
-  stageFooter = function() {
-    
-    var footer = $('.stage-footer');
-    var stage = $('.stage');
-    var activeStage = stage.hasClass('active');
-    var stageID = stage.eq();
-    
-    stage.each(function() {
-      if($('.stage.active').length != 0) {
-        footer.addClass('active');
-      }
-    });
-    
-  }
   
   $('#fullpage').fullpage({
     paddingBottom: '66px',
@@ -29,6 +14,7 @@ $(function(){
       }
       
       if(index == 3){
+        $('.stage-3 .triggers').addClass('fadeInUp animated');
       }
     
     }
@@ -47,7 +33,7 @@ $(function(){
     navLink.on('click',function(e){
       e.preventDefault();
       var body = $('body');
-      var segment = $('.stage').find('[data-segment]');
+      var segment = $('[data-segment]');
       var navLinkSegment = $(this).attr('data-segment');
       var segmentData = segment.attr('data-segment');
       
@@ -61,22 +47,10 @@ $(function(){
       navLink.removeClass('active');
       $(this).addClass('active');
 
-/*
-      var activeClass = 'active-';
-      var bodyClass = activeClass.concat(navLinkSegment);
-      body.removeAttr('class');
-      body.addClass(bodyClass);
-*/
-
-      console.log(segmentData);
-
     });
     
-    
   }
-  
-  
+    
   segmentNav();
-  stageFooter();
   
 });

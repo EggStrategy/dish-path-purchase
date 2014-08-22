@@ -3,7 +3,7 @@
 
   <div class="stage-left">
   
-    <div class="triggers fadeInUp animated">
+    <div class="triggers">
       <h2>Triggers</h2>
       <ul>
         <li>Bundling with high-speed internet</li>

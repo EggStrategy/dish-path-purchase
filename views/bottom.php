@@ -1,34 +1,65 @@
   
 <section data-anchor="intro" class="bottom section active">
 
-  <div data-segment="enthusiasts">
-    <div class="icon-enthusiasts"></div>
-    <h3 class="label">Enthusiasts:</h3>
-    <p>Highly engaged in the category, take pride in being an early adopter.</p>
-    <p>Motivation: Connect with others and be part of the conversation.</p>
+  <div class="segment-paths">
+    <div class="path-enthusiasts" data-segment="enthusiasts"></div>
+    <div class="path-flexibles" data-segment="flexibles"></div>
+    <div class="path-indulgers" data-segment="indulgers"></div>
+    <div class="path-traditionals" data-segment="traditionals"></div>
   </div>
 
-  <div data-segment="flexibles">
-    <div class="icon-flexibles"></div>
-    <h3 class="label">Flexibles:</h3>
-    <p>Medium category engagement, value options that allow for on-the-go consumption.</p>
-    <p>Motivation: Find moments of escape amidst busy personal and professional lives.</p>
-  </div>
+  <div class="bottom-left bottom-section">
+    
+    <h2>Motivation</h2>
+  
+    <div data-segment="enthusiasts">
+      <h3>Enthusiasts</h3>
+      <p>Connect with others and be part of the conversation.</p>
+    </div>
+  
+    <div data-segment="flexibles">
+      <h3>Flexibles</h3>
+      <p>Find moments of escape amidst busy personal and professional lives.</p>
+    </div>
+  
+    <div data-segment="indulgers">
+      <h3>Indulgers</h3>
+      <p>Experience joy through becoming fully immersed in favorite content (sports).</p>
+    </div>
+  
+    <div data-segment="traditionals">
+      <h3>Traditionals &amp; Practicals</h3>
+      <p>Spend time together as a family, background noise.</p>
+    </div>
 
-  <div data-segment="indulgers">
-    <div class="icon-indulgers"></div>
-    <h3 class="label">Indulgers:</h3>
-    <p>Highly engaged in the category, willing to pay more for premium content and tech.</p>
-    <p>Motivation: Experience joy through becoming fully immersed in favorite content (sports).</p>
-  </div>
-
-  <div data-segment="traditionals">
-    <div class="icon-traditionals"></div>
-    <h3 class="label">Traditionals &amp; Practicals:</h3>
-    <p>Low category engagement, relies on live programming.</p>
-    <p>Motivation: Spend time together as a family, background noise.</p>
   </div>
   
-  <span class="slide-up-btn">Next Slide</span>
+  <div class="bottom-right bottom-section">
+  
+    <h2>Segment</h2>
+  
+    <div data-segment="enthusiasts">
+      <h3>Enthusiasts</h3>
+      <p>Highly engaged in the category, take pride in being an early adopter.</p>
+    </div>
+  
+    <div data-segment="flexibles">
+      <h3>Flexibles</h3>
+      <p>Medium category engagement, value options that allow for on-the-go consumption.</p>
+    </div>
+  
+    <div data-segment="indulgers">
+      <h3>Indulgers</h3>
+      <p>Highly engaged in the category, willing to pay more for premium content and tech.</p>
+    </div>
+  
+    <div data-segment="traditionals">
+      <h3>Traditionals &amp; Practicals</h3>
+      <p>Low category engagement, relies on live programming.</p>
+    </div>
+
+    <div class="position">0 / 5</div>  
+
+  </div>
     
 </section>

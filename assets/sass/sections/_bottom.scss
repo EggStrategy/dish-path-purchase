@@ -2,5 +2,125 @@
 .bottom {
   background: $dk-grey;
   color: #fff;
-  text-align: center;
+  
+  h2 {
+    @include font-size(44px);
+    margin-bottom: 24px;
+    font-weight: $light;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    @include font-size(24px);
+    margin-bottom: 6px;
+    font-weight: $bold;
+    text-transform: none;
+  }
+}
+
+.bottom-section [data-segment] {
+  position: absolute;
+  
+  &:nth-child(2) {
+    top: 220px;
+  }
+
+  &:nth-child(3) {
+    top: 340px;
+  }
+
+  &:nth-child(4) {
+    top: 460px;
+  }
+
+  &:nth-child(5) {
+    top: 580px;
+  }
+
+  &:nth-child(6) {
+    top: 700px;
+  }
+}
+
+
+.bottom-left,
+.bottom-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  padding: 100px 140px 0;
+}
+
+.bottom-left {
+  left: 0;
+  text-align: right;
+  
+  h2 {
+    margin-right: -4px;
+  }
+  
+  [data-segment] {
+    right: 140px;
+    padding-left: 140px;
+  }
+}
+
+.bottom-right {
+  right: 0;
+
+  [data-segment] {
+    left: 140px;
+    padding-right: 140px;
+  }
+  
+  .position {
+    position: absolute;
+    top: 70px;
+    left: 140px;
+    font-style: italic;
+  }
+}
+
+.segment-paths {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 199px;
+  margin-left: -99px;
+  
+  [class*="path-"] {
+    position: absolute;
+    top: 0;
+  }
+}
+
+.path-enthusiasts {
+  left: 45px;
+  width: 109px;
+  height: 302px;
+  background: $path-enthusiasts no-repeat;
+}
+
+.path-flexibles {
+  right: 22px;
+  width: 128px;
+  height: 427px;
+  background: $path-flexibles no-repeat;
+}
+
+.path-indulgers {
+  left: 0;
+  width: 153px;
+  height: 551px;
+  background: $path-indulgers no-repeat;
+}
+
+.path-traditionals {
+  right: 0;
+  width: 156px;
+  height: 678px;
+  background: $path-traditionals no-repeat;
 }
