@@ -7,7 +7,7 @@ $(function(){
     normalScrollElements: '#full-view',
     navigation: true,
     navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro', 'Full View'],
-    anchors: ['stage5', 'stage4', 'stage3', 'stage2', 'stage1', 'intro'],
+    anchors: ['stage5', 'stage4', 'stage3', 'stage2', 'stage1', 'intro', 'full-view'],
         
     afterLoad: function(anchorLink, index){
     
