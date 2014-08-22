@@ -4,8 +4,9 @@ $(function(){
     paddingBottom: '66px',
     scrollingSpeed: 700,
     easing: 'swing',
+    normalScrollElements: '#full-view',
     navigation: true,
-    navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro'],
+    navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro', 'Full View'],
     anchors: ['stage5', 'stage4', 'stage3', 'stage2', 'stage1', 'intro'],
         
     afterLoad: function(anchorLink, index){

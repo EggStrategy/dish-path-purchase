@@ -1,0 +1,89 @@
+
+.full-view {
+  background: $grey $bg-full-view-gradient repeat-x left top;
+}
+
+.full-fountain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: $bg-full-view no-repeat center top;
+}
+
+.full-view-left,
+.full-view-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.full-view-left {
+  left: 0;
+}
+
+.full-view-right {
+  right: 0;
+}
+
+.full-view .scroll-directions,
+.full-view [class*="stage-label-"] {
+  @include font-size(20px);
+  @include line-height(22px);
+  font-weight: $light;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.full-view-left {
+  .scroll-up-block {
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    z-index: 20;
+    width: 320px;
+    padding: 20px 0 0 140px;
+    
+    .arrow-up-full-view {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+
+.full-view [class*="stage-label-"] {
+  position: absolute;
+  left: 240px;
+  z-index: 20;
+}
+
+.stage-label-5 {
+  top: 60px;
+}
+
+.stage-label-4 {
+  top: 140px;
+}
+
+.stage-label-3 {
+  top: 294px;
+}
+
+.stage-label-2 {
+  top: 418px;
+}
+
+.stage-label-1 {
+  top: 536px;
+}
+
+
+
+
+

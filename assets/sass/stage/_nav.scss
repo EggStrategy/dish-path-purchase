@@ -71,6 +71,11 @@
   content: "0";
 }
 
+#fp-nav li:nth-child(7) span:before {
+  content: "F";
+}
+
+
 .fp-tooltip {
   @include font-size(14px);
   position: absolute;

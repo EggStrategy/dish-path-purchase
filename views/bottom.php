@@ -1,5 +1,5 @@
   
-<section data-anchor="intro" class="bottom section active">
+<section data-anchor="intro" class="bottom section">
 
   <div class="segment-paths">
     <div class="path-enthusiasts" data-segment="enthusiasts"></div>

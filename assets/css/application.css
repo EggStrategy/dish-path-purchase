@@ -210,6 +210,12 @@ em {
   display: inline-block;
 }
 
+.arrow-up-full-view {
+  width: 115px;
+  height: 115px;
+  background: url('/assets/images/arrow-up-full-view.png?1408720721') no-repeat;
+}
+
 .arrow-left-purple-s3 {
   width: 117px;
   height: 11px;
@@ -311,6 +317,10 @@ a {
   -o-transition: all 0.15s ease-in;
   transition: all 0.15s ease-in;
   color: #f47e20;
+}
+
+.slide-up-btn {
+  cursor: pointer;
 }
 
 /*
@@ -740,6 +750,10 @@ html, body {
   content: "0";
 }
 
+#fp-nav li:nth-child(7) span:before {
+  content: "F";
+}
+
 .fp-tooltip {
   font-size: 14px;
   font-size: 0.875rem;
@@ -1077,7 +1091,7 @@ html, body {
 
 .footer {
   *zoom: 1;
-  background: #a0a0a0;
+  background: #a2a2a2;
 }
 .footer:before, .footer:after {
   content: " ";
@@ -1140,6 +1154,88 @@ html, body {
 .copyright p {
   font-size: 15px;
   text-align: center;
+}
+
+.full-view {
+  background: #6c6c6c url('/assets/images/bg-full-view-gradient.jpg?1408720503') repeat-x left top;
+}
+
+.full-fountain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/bg-full-view.jpg?1408720284') no-repeat center top;
+}
+
+.full-view-left,
+.full-view-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.full-view-left {
+  left: 0;
+}
+
+.full-view-right {
+  right: 0;
+}
+
+.full-view .scroll-directions,
+.full-view [class*="stage-label-"] {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.full-view-left .scroll-up-block {
+  position: absolute;
+  top: 260px;
+  right: 200px;
+  z-index: 20;
+  width: 320px;
+  padding: 20px 0 0 140px;
+}
+.full-view-left .scroll-up-block .arrow-up-full-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.full-view [class*="stage-label-"] {
+  position: absolute;
+  left: 240px;
+  z-index: 20;
+}
+
+.stage-label-5 {
+  top: 60px;
+}
+
+.stage-label-4 {
+  top: 140px;
+}
+
+.stage-label-3 {
+  top: 294px;
+}
+
+.stage-label-2 {
+  top: 418px;
+}
+
+.stage-label-1 {
+  top: 536px;
 }
 
 .bottom {
