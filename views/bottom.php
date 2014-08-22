@@ -1,5 +1,5 @@
   
-<section id="bottom" class="bottom section active">
+<section data-anchor="intro" class="bottom section active">
 
   <div data-segment="enthusiasts">
     <div class="icon-enthusiasts"></div>
@@ -28,5 +28,7 @@
     <p>Low category engagement, relies on live programming.</p>
     <p>Motivation: Spend time together as a family, background noise.</p>
   </div>
+  
+  <span class="slide-up-btn">Next Slide</span>
     
 </section>

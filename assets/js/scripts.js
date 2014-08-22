@@ -16,17 +16,27 @@ $(function(){
   }
   
   $('#fullpage').fullpage({
-/*     css3: true, */
+    paddingBottom: '66px',
     scrollingSpeed: 700,
     easing: 'swing',
     navigation: true,
     navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro'],
-
-    afterRender: function(index){      
-      if(index == 2) {
+    anchors: ['stage5', 'stage4', 'stage3', 'stage2', 'stage1', 'intro'],
+        
+    afterLoad: function(anchorLink, index){
+    
+      if(anchorLink == 'stage2'){
       }
+      
+      if(index == 3){
+      }
+    
     }
     
+  });
+  
+  $('.slide-up-btn').click(function(){
+    $.fn.fullpage.moveSectionUp();
   });
   
   
