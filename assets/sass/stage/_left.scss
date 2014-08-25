@@ -59,46 +59,46 @@
     border-radius: 50%;
     
     &:nth-child(2) {
+      @include animation-delay(1s);
       width: 8px;
       height: 8px;
-      animation-delay: 1s;
     }
 
     &:nth-child(3) {
+      @include animation-delay(1.5s);
       width: 6px;
       height: 6px;
-      animation-delay: 1.5s;
     }
 
     &:nth-child(4) {
+      @include animation-delay(2s);
       width: 3px;
       height: 3px;
-      animation-delay: 2s;
     }
 
     &:nth-child(5) {
+      @include animation-delay(2.5s);
       width: 9px;
       height: 9px;
-      animation-delay: 2.5s;
     }
 
     &:nth-child(6) {
-      animation-delay: 3s;
+      @include animation-delay(3s);
     }
   }
 }
 
 .stage-1 .water-drops .drop {
-  animation-duration: 3s;
-  animation-name: waterDropSmall;
+  @include animation-name(waterDropSmall);
+  @include animation-duration(3s);
 }
 
 .stage-2 .water-drops {
   top: 250px;
 
   .drop {
-    animation-duration: 4s;
-    animation-name: waterDrop;
+    @include animation-name(waterDrop);
+    @include animation-duration(4s);
   }  
 }
 
@@ -106,8 +106,8 @@
   top: 220px;
 
   .drop {
-    animation-duration: 4s;
-    animation-name: waterDrop;
+    @include animation-name(waterDrop);
+    @include animation-duration(4s);
   }  
 }
 
@@ -115,8 +115,8 @@
   top: 220px;
 
   .drop {
-    animation-duration: 4s;
-    animation-name: waterDrop;
+    @include animation-name(waterDrop);
+    @include animation-duration(3s);
   }  
 }
 
@@ -125,7 +125,7 @@
   right: 360px;
 
   .drop {
-    animation-duration: 3s;
-    animation-name: waterDropSmall;
+    @include animation-name(waterDropSmall);
+    @include animation-duration(3s);
   }  
 }

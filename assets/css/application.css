@@ -415,20 +415,49 @@ a {
 }
 */
 .animated {
+  -o-animation-duration: 1s;
+  -moz-animation-duration: 1s;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
+  -o-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .animated.infinite {
+  -o-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-.animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+@-o-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @-webkit-keyframes fadeInUp {
@@ -445,28 +474,28 @@ a {
   }
 }
 
-@keyframes fadeInUp {
+@-keyframes fadeInUp {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
 
   100% {
     opacity: 1;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
   }
 }
 
 .fadeInUp {
+  -o-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
-@keyframes waterDrop {
+@-o-keyframes waterDrop {
   0% {
     opacity: 0;
   }
@@ -481,7 +510,97 @@ a {
   }
 }
 
-@keyframes waterDropSmall {
+@-moz-keyframes waterDrop {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+  }
+}
+
+@-webkit-keyframes waterDrop {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+  }
+}
+
+@-keyframes waterDrop {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 500px, 0);
+  }
+}
+
+@-o-keyframes waterDropSmall {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+@-moz-keyframes waterDropSmall {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+@-webkit-keyframes waterDropSmall {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+@-keyframes waterDropSmall {
   0% {
     opacity: 0;
   }
@@ -741,56 +860,95 @@ html, body {
   border-radius: 50%;
 }
 .water-drops .drop:nth-child(2) {
+  -o-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   width: 8px;
   height: 8px;
-  animation-delay: 1s;
 }
 .water-drops .drop:nth-child(3) {
+  -o-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
   width: 6px;
   height: 6px;
-  animation-delay: 1.5s;
 }
 .water-drops .drop:nth-child(4) {
+  -o-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   width: 3px;
   height: 3px;
-  animation-delay: 2s;
 }
 .water-drops .drop:nth-child(5) {
+  -o-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
   width: 9px;
   height: 9px;
-  animation-delay: 2.5s;
 }
 .water-drops .drop:nth-child(6) {
+  -o-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
 
 .stage-1 .water-drops .drop {
-  animation-duration: 3s;
+  -o-animation-name: waterDropSmall;
+  -moz-animation-name: waterDropSmall;
+  -webkit-animation-name: waterDropSmall;
   animation-name: waterDropSmall;
+  -o-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 .stage-2 .water-drops {
   top: 250px;
 }
 .stage-2 .water-drops .drop {
-  animation-duration: 4s;
+  -o-animation-name: waterDrop;
+  -moz-animation-name: waterDrop;
+  -webkit-animation-name: waterDrop;
   animation-name: waterDrop;
+  -o-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 .stage-3 .water-drops {
   top: 220px;
 }
 .stage-3 .water-drops .drop {
-  animation-duration: 4s;
+  -o-animation-name: waterDrop;
+  -moz-animation-name: waterDrop;
+  -webkit-animation-name: waterDrop;
   animation-name: waterDrop;
+  -o-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 .stage-4 .water-drops {
   top: 220px;
 }
 .stage-4 .water-drops .drop {
-  animation-duration: 4s;
+  -o-animation-name: waterDrop;
+  -moz-animation-name: waterDrop;
+  -webkit-animation-name: waterDrop;
   animation-name: waterDrop;
+  -o-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 .stage-5 .water-drops {
@@ -798,8 +956,14 @@ html, body {
   right: 360px;
 }
 .stage-5 .water-drops .drop {
-  animation-duration: 3s;
+  -o-animation-name: waterDropSmall;
+  -moz-animation-name: waterDropSmall;
+  -webkit-animation-name: waterDropSmall;
   animation-name: waterDropSmall;
+  -o-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 .stage-position {
