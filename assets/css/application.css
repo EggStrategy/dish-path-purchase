@@ -193,6 +193,43 @@ em {
   background: url('/assets/images/icon-traditionals.svg?1408637448') no-repeat;
 }
 
+[class*="icon-mood-"] {
+  position: relative;
+  z-index: 10;
+  display: block;
+  margin: 0 auto -4px;
+  background: url('/assets/images/sprite-moods.svg?1408998943') no-repeat;
+}
+
+.icon-mood-angry {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -397px;
+}
+
+.icon-mood-hopeful {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -297px;
+}
+
+.icon-mood-frustrated {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -197px;
+}
+
+.icon-mood-determined {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -99px;
+}
+
+.icon-mood-excited {
+  width: 84px;
+  height: 92px;
+}
+
 .bubbles {
   width: 82px;
   height: 303px;
@@ -200,7 +237,6 @@ em {
 }
 
 .circle-stay-s3 {
-  /*   width: 128px; */
   width: 251px;
   height: 173px;
   background: url('/assets/images/circle-stay-s3.png?1408643525') no-repeat;
@@ -240,7 +276,6 @@ em {
   background-position: 0 -42px;
 }
 
-/** Fountain Arrows **/
 .arrow-down-s1 {
   width: 168px;
   height: 188px;

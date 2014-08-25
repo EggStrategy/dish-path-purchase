@@ -60,7 +60,7 @@
   <div class="stage-paths">
   
     <div class="stage-mood">
-      <div class="icon-"></div>
+      <div class="icon-mood-hopeful"></div>
       <div class="mood">Hopeful</div>
     </div>
     

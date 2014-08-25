@@ -3,6 +3,8 @@
   display: inline-block;
 }
 
+// Segment Avatars
+
 .icon-recommendations {
   width: 25px;
   height: 23px;
@@ -33,6 +35,47 @@
   background: $icon-traditionals no-repeat;
 }
 
+// Mood Avatas
+
+[class*="icon-mood-"] {
+  position: relative;
+  z-index: 10;
+  display: block;
+  margin: 0 auto -4px;
+  background: $sprite-moods no-repeat;
+}
+
+.icon-mood-angry {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -397px;
+}
+
+.icon-mood-hopeful {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -297px;
+}
+
+.icon-mood-frustrated {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -197px;
+}
+
+.icon-mood-determined {
+  width: 84px;
+  height: 92px;
+  background-position: 0 -99px;
+}
+
+.icon-mood-excited {
+  width: 84px;
+  height: 92px;
+}
+
+// Stage Assets
+
 .bubbles {
   width: 82px;
   height: 303px;
@@ -40,11 +83,12 @@
 }
 
 .circle-stay-s3 {
-/*   width: 128px; */
   width: 251px;
   height: 173px;
   background: $circle-stay-s3 no-repeat;
 }
+
+// Arrows
 
 [class*="arrow-"] {
   display: inline-block;
@@ -81,7 +125,7 @@
 }
 
 
-/** Fountain Arrows **/
+// Fountain Arrows
 
 .arrow-down-s1 {
   width: 168px;

@@ -59,7 +59,7 @@
   <div class="stage-paths">
   
     <div class="stage-mood">
-      <div class="icon-"></div>
+      <div class="icon-mood-determined"></div>
       <div class="mood">Determined</div>
     </div>
     

@@ -71,7 +71,7 @@
   <div class="stage-paths">
   
     <div class="stage-mood">
-      <div class="icon-"></div>
+      <div class="icon-mood-frustrated"></div>
       <div class="mood">Frustrated</div>
     </div>
     

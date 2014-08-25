@@ -66,7 +66,7 @@
   <div class="stage-paths">
   
     <div class="stage-mood">
-      <div class="icon-"></div>
+      <div class="icon-mood-angry"></div>
       <div class="mood">Angry</div>
     </div>
     

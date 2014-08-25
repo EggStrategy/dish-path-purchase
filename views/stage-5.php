@@ -60,7 +60,7 @@
   <div class="stage-paths">
   
     <div class="stage-mood">
-      <div class="icon-"></div>
+      <div class="icon-mood-excited"></div>
       <div class="mood">Excited</div>
     </div>
     
