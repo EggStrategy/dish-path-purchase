@@ -3,6 +3,8 @@
 
   <div class="stage-left">
   
+    <div class="water-drops"></div>
+
     <div class="paths-circles"></div>
   
     <div class="triggers">

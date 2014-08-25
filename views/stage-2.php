@@ -2,6 +2,8 @@
 <section data-anchor="stage2" class="stage stage-2 section">
 
   <div class="stage-left">
+
+    <div class="water-drops"></div>
   
     <div class="triggers">
       <h2>Triggers</h2>

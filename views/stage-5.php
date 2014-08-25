@@ -5,6 +5,8 @@
 
   <div class="stage-left">
   
+    <div class="water-drops"></div>
+
     <div class="triggers">
       <ul>
         <li>Quality customer service</li>

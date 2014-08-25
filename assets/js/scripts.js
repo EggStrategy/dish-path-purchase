@@ -30,7 +30,6 @@ $(function(){
       if(anchorLink == 'stage5'){
         $('.stage-5 .triggers').addClass('fadeInUp animated');
       }
-
     
     }
     
@@ -65,7 +64,24 @@ $(function(){
     });
     
   }
+
+  waterDrops = function() {
+  
+    var $dropsContainter = $('.water-drops');
+    var dropsHtml = "";
+    
+    console.log(posX);
+    
+    for (var i = 0; i < 5; i++) {
+      var posX = Math.floor(Math.random() * (70 - 1) + 1);
+      dropsHtml += '<div class="drop animated infinite" style="left: ' + posX + 'px"></div>';
+    }
+    
+    $dropsContainter.html(dropsHtml);
+
+  }
     
   segmentNav();
+  waterDrops();
   
 });

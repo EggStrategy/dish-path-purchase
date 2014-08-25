@@ -42,3 +42,90 @@
   width: 80px;
   height: 297px;
 }
+
+.water-drops {
+  position: absolute;
+  top: 300px;
+  right: 510px;
+  width: 80px;
+  height: 200px;
+  
+  .drop {
+    position: absolute;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background: #6ea3d2;
+    border-radius: 50%;
+    
+    &:nth-child(2) {
+      width: 8px;
+      height: 8px;
+      animation-delay: 1s;
+    }
+
+    &:nth-child(3) {
+      width: 6px;
+      height: 6px;
+      animation-delay: 1.5s;
+    }
+
+    &:nth-child(4) {
+      width: 3px;
+      height: 3px;
+      animation-delay: 2s;
+    }
+
+    &:nth-child(5) {
+      width: 9px;
+      height: 9px;
+      animation-delay: 2.5s;
+    }
+
+    &:nth-child(6) {
+      animation-delay: 3s;
+    }
+  }
+}
+
+.stage-1 .water-drops .drop {
+  animation-duration: 3s;
+  animation-name: waterDropSmall;
+}
+
+.stage-2 .water-drops {
+  top: 250px;
+
+  .drop {
+    animation-duration: 4s;
+    animation-name: waterDrop;
+  }  
+}
+
+.stage-3 .water-drops {
+  top: 220px;
+
+  .drop {
+    animation-duration: 4s;
+    animation-name: waterDrop;
+  }  
+}
+
+.stage-4 .water-drops {
+  top: 220px;
+
+  .drop {
+    animation-duration: 4s;
+    animation-name: waterDrop;
+  }  
+}
+
+.stage-5 .water-drops {
+  top: 380px;
+  right: 360px;
+
+  .drop {
+    animation-duration: 3s;
+    animation-name: waterDropSmall;
+  }  
+}
