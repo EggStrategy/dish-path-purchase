@@ -5,7 +5,7 @@
   
     <div class="paths-circles"></div>
   
-    <div class="triggers fadeInUp animated">
+    <div class="triggers">
       <h2>Triggers</h2>
       <ul>
         <li>Termination fee coverage</li>

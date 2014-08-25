@@ -11,12 +11,26 @@ $(function(){
         
     afterLoad: function(anchorLink, index){
     
-      if(anchorLink == 'stage2'){
+      if(anchorLink == 'stage1'){
+        $('.stage-1 .triggers').addClass('fadeInUp animated');
       }
       
-      if(index == 3){
+      if(anchorLink == 'stage2'){
+        $('.stage-2 .triggers').addClass('fadeInUp animated');
+      }
+            
+      if(anchorLink == 'stage3'){
         $('.stage-3 .triggers').addClass('fadeInUp animated');
       }
+      
+      if(anchorLink == 'stage4'){
+        $('.stage-4 .triggers').addClass('fadeInUp animated');
+      }
+      
+      if(anchorLink == 'stage5'){
+        $('.stage-5 .triggers').addClass('fadeInUp animated');
+      }
+
     
     }
     
