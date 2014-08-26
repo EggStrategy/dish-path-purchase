@@ -76,6 +76,6 @@
     <div class="time-span"></div>
   </div>
 
-  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/recommendations/reco-s4.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/recommendations/stage-4.php'; ?>
 
 </section>

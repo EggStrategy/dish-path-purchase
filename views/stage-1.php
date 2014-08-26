@@ -84,4 +84,6 @@
     <div class="time-span"></div>
   </div>
 
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/recommendations/stage-1.php'; ?>
+
 </section>

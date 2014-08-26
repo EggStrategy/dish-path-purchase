@@ -29,13 +29,14 @@
   }
 }
 
-.modal .content-wrapper {
-  padding: 0 40px;
-}
-
 .modal .col-left .content-wrapper {
   padding-left: 100px;
 }
+
+.modal .col-right .content-wrapper {
+  padding: 0 60px 0 80px;
+}
+
 
 .modal .col-left {
   h3 {

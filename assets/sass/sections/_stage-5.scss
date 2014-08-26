@@ -51,10 +51,13 @@
   right: 120px;
 }
 
-
 .stage-5 .urgency-note {
   @include font-size(12px);
   clear: both;
   padding-top: 20px;
   font-style: italic;
+}
+
+.stage-5 .stage-paths .path-2 {
+  top: 100px;
 }

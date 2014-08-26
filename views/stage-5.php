@@ -66,10 +66,7 @@
       <div class="mood">Excited</div>
     </div>
     
-<!--     <div class="path-1" data-segment="indulgers"></div> -->
     <div class="path-2" data-segment="enthusiasts"></div>
-<!--     <div class="path-3" data-segment="flexibles"></div> -->
-<!--     <div class="path-4" data-segment="traditionals"></div> -->
     
   </div>
   
@@ -77,5 +74,7 @@
     <div class="time-length">Timeline: <span class="label">Days to Weeks</span></div>
     <div class="time-span"></div>
   </div>
+
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/recommendations/stage-5.php'; ?>
 
 </section>
