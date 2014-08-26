@@ -49,7 +49,7 @@
           </ul>
           
           <h3>Retention</h3>
-          <p>Initial experiences are critical in determining future expectations. Experiences that make consumers feel confident and validated in their decision, result in more positive, long­term provider expectations moving forward.</p>
+          <p>Initial experiences are critical in determining future expectations. Experiences that make consumers feel confident and validated in their decision, result in more positive, long-term provider expectations moving forward.</p>
           <ul>
             <li>Smooth installation process: Arrive on time, quick set up, education / intro to features</li>
             <li>Excellent customer service</li>

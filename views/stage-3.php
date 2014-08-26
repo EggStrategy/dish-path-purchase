@@ -26,7 +26,7 @@
       </ul>
     </div>
     
-    <div class="stay-s3">
+    <div class="stay-s3" data-segment="indulgers">
       <div class="circle-stay-s3"></div>
     </div>
   

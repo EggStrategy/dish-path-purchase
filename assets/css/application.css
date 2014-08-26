@@ -715,8 +715,9 @@ html, body {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 66px;
+  bottom: 0;
   z-index: 30;
+  padding-bottom: 66px;
   background: rgba(255, 255, 255, 0.96);
 }
 .modal.active {
@@ -1223,7 +1224,7 @@ html, body {
   position: fixed;
   left: 0;
   bottom: 0;
-  z-index: 20;
+  z-index: 50;
   width: 100%;
   background: #4c4c4e;
   border-top: 1px solid #282828;
@@ -1257,6 +1258,7 @@ html, body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #d83945;
+  content: "";
   position: absolute;
   top: -10px;
   left: 50%;
