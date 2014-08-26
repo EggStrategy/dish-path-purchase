@@ -1,7 +1,7 @@
   
 <section data-anchor="stage3" class="stage stage-3 section">
 
-  <div class="stage-left">
+  <div class="col-left stage-left">
 
     <div class="water-drops"></div>
   
@@ -32,7 +32,7 @@
   
   </div>
   
-  <div class="stage-right">
+  <div class="col-right stage-right">
     
     <div class="stage-header">
       <div class="stage-position">3 / 5</div>

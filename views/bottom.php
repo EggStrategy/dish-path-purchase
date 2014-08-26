@@ -8,7 +8,7 @@
     <div class="path-traditionals" data-segment="traditionals"></div>
   </div>
 
-  <div class="bottom-left bottom-section">
+  <div class="col-left bottom-left bottom-section">
     
     <h2>Motivation</h2>
   
@@ -34,7 +34,7 @@
 
   </div>
   
-  <div class="bottom-right bottom-section">
+  <div class="col-right bottom-right bottom-section">
   
     <h2>Segment</h2>
   

@@ -24,7 +24,7 @@
     </div>
     <div class="stage-label-3">
       <div class="number">3 &ndash;</div>
-      <h3>Eveluation</h3>
+      <h3>Evaluation</h3>
       <p>Which TV provider is best for me?</p>
     </div>
     <div class="stage-label-2">

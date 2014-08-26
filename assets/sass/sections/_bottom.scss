@@ -46,16 +46,10 @@
 
 .bottom-left,
 .bottom-right {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 50%;
-  height: 100%;
   padding: 100px 140px 0;
 }
 
 .bottom-left {
-  left: 0;
   text-align: right;
   
   h2 {
@@ -69,7 +63,6 @@
 }
 
 .bottom-right {
-  right: 0;
 
   [data-segment] {
     left: 140px;

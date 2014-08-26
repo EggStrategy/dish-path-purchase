@@ -3,7 +3,7 @@
 
   <div class="stage-bg"></div>
 
-  <div class="stage-left">
+  <div class="col-left stage-left">
   
     <div class="water-drops"></div>
 
@@ -31,7 +31,7 @@
   
   </div>
   
-  <div class="stage-right">
+  <div class="col-right stage-right">
     
     <div class="stage-header">
       <div class="stage-position">5 / 5</div>

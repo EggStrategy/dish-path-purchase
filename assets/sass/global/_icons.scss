@@ -3,13 +3,19 @@
   display: inline-block;
 }
 
-// Segment Avatars
-
 .icon-recommendations {
   width: 25px;
   height: 23px;
   background: $icon-recommendations no-repeat;
 }
+
+.icon-close {
+  width: 39px;
+  height: 39px;
+  background: $icon-close no-repeat;
+}
+
+// Segment Avatars
 
 .icon-enthusiasts {
   width: 47px;
@@ -72,6 +78,21 @@
 .icon-mood-excited {
   width: 84px;
   height: 92px;
+}
+
+
+// Modal Segment Avatars
+
+.modal-segments-01 {
+  width: 272px;
+  height: 93px;
+  background: $modal-segments-01 no-repeat;
+}
+
+.modal-segments-02 {
+  width: 130px;
+  height: 64px;
+  background: $modal-segments-02 no-repeat;
 }
 
 // Stage Assets

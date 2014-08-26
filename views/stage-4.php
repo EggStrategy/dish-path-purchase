@@ -1,7 +1,7 @@
   
 <section data-anchor="stage4" class="stage stage-4 section">
 
-  <div class="stage-left">
+  <div class="col-left stage-left">
   
     <div class="water-drops"></div>
 
@@ -27,7 +27,7 @@
   
   </div>
   
-  <div class="stage-right">
+  <div class="col-right stage-right">
     
     <div class="stage-header">
       <div class="stage-position">4 / 5</div>
@@ -65,7 +65,6 @@
       <div class="mood">Determined</div>
     </div>
     
-<!--     <div class="path-1" data-segment="indulgers"></div> -->
     <div class="path-2" data-segment="enthusiasts"></div>
     <div class="path-3" data-segment="flexibles"></div>
     <div class="path-4" data-segment="traditionals"></div>
@@ -76,5 +75,7 @@
     <div class="time-length">Timeline: <span class="label">Weeks</span></div>
     <div class="time-span"></div>
   </div>
+
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/recommendations/reco-s4.php'; ?>
 
 </section>

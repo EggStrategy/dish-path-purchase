@@ -19,6 +19,7 @@
 }
 
 .recomend-link {
+  position: relative;
   float: left;
   height: 66px;
   margin-left: 20px;
@@ -26,6 +27,18 @@
   
   &:hover {
     background: $black;
+  }
+  
+  &.active {
+    background: $red;
+    
+    &:after {
+      @include up-triangle(10px, $red);
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      margin-left: -5px;
+    }
   }
   
   .icon-recommendations {

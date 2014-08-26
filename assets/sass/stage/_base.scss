@@ -25,24 +25,13 @@
   @include background(linear-gradient(#fffef2, #f4faf3));
 }
 
-.stage-left,
-.stage-right {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 50%;
-  height: 100%;
-}
-
 .stage-left {
-  left: 0;
   margin-right: 30px;
   padding: 40px 50px 40px 80px;
   border-right: 30px solid $dk-grey;
 }
 
 .stage-right {
-  right: 0;
   margin-left: 30px;
   padding: 40px 80px 40px 60px;
   background: #fff;

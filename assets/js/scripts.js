@@ -39,7 +39,6 @@ $(function(){
     $.fn.fullpage.moveSectionUp();
   });
   
-  
   segmentNav = function() {
     
     var navLink = $('.segment-nav a');
@@ -65,6 +64,26 @@ $(function(){
     
   }
 
+  recoModal = function() {
+    
+    var recButton = $('.recomend-link');
+    var closeButton = $('.icon-close');
+    var modal = $('.modal');
+
+    recButton.on('click', function(e) {
+      e.preventDefault();
+      $(this).toggleClass('active');
+      modal.fadeIn().addClass('active');
+    });
+    
+    closeButton.on('click', function(e) {
+      e.preventDefault();
+      modal.fadeOut().removeClass('active');
+      recButton.removeClass('active');
+    });
+    
+  }
+
   waterDrops = function() {
   
     var $dropsContainter = $('.water-drops');
@@ -83,5 +102,7 @@ $(function(){
     
   segmentNav();
   waterDrops();
+  recoModal();
+  
   
 });

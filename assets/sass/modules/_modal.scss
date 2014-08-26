@@ -1,0 +1,82 @@
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 66px;
+  z-index: 30;
+  background: rgba(#fff, 0.96);
+  
+  &.active {
+    display: block;
+  }
+}
+
+.modal .icon-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 40;
+}
+
+.modal .col-1-2:last-child {
+  padding-left: 60px;
+  
+  h3 {
+    margin-bottom: 8px;
+  }
+}
+
+.modal .content-wrapper {
+  padding: 0 40px;
+}
+
+.modal .col-left .content-wrapper {
+  padding-left: 100px;
+}
+
+.modal .col-left {
+  h3 {
+    margin-bottom: 4px;
+  }
+  
+  p {
+    @include font-size(12px);
+    margin-bottom: 16px;
+  }
+  
+  [class*="modal-segments-"] {
+    margin-bottom: 16px;
+  }
+}
+
+.modal .stage-header {
+  margin-bottom: 24px;
+}
+
+.recommendation-content {
+  h2 {
+    margin-bottom: 16px;
+    @include font-size(24px);
+    font-weight: $light;
+  }
+  
+  h3 {
+    margin-bottom: 6px;
+  }
+  
+  p {
+    margin-bottom: 16px;
+    @include font-size(15px);
+    @include line-height(21px);
+  }
+  
+  li {
+    margin-bottom: 16px;
+    @include font-size(13px);
+    @include line-height(18px);
+  }
+}
+
