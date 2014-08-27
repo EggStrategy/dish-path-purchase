@@ -51,13 +51,14 @@
     <div class="doing-thinking">
     
       <div class="col doing">
-        <h3>Doing</h3>
+        <div class="arrows-all"></div>
+        <h3>Doing <span class="label-all">(All Segments)</span></h3>
         <p>Gear up for the process, mentally prepare, list priorities</p>
-
       </div>
 
       <div class="col thinking">
-        <h3>Thinking</h3>
+        <div class="arrows-all"></div>
+        <h3>Thinking <span class="label-all">(All Segments)</span></h3>
         <p>Desired channels, budget</p>
       </div>
     

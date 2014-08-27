@@ -43,7 +43,8 @@
     <div class="doing-thinking">
     
       <div class="col doing">
-        <h3>Doing</h3>
+        <div class="arrows-all"></div>
+        <h3>Doing <span class="label-all">(All Segments)</span></h3>
         <p>Diligently & thoroughly compare providers & packages</p>
         
         <ul>
@@ -55,7 +56,8 @@
       </div>
 
       <div class="col thinking">
-        <h3>Thinking</h3>
+        <div class="arrows-all"></div>
+        <h3>Thinking <span class="label-all">(All Segments)</span></h3>
         <p>Sub-category, provider availability and reliability</p>
         
         <ul>

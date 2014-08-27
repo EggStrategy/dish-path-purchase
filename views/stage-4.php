@@ -38,7 +38,8 @@
     <div class="doing-thinking">
     
       <div class="col doing">
-        <h3>Doing</h3>
+        <div class="arrows-all"></div>
+        <h3>Doing <span class="label-all">(All Segments)</span></h3>
         <p>Negotiate with current provider and / or experiment with alternative solutions</p>
         
         <ul>
@@ -50,7 +51,8 @@
       </div>
 
       <div class="col thinking">
-        <h3>Thinking</h3>
+        <div class="arrows-all"></div>
+        <h3>Thinking <span class="label-all">(All Segments)</span></h3>
         <p>Getting more or paying less</p>
       </div>
     
