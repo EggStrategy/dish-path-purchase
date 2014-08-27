@@ -37,8 +37,7 @@
     <div class="doing-thinking">
     
       <div class="col doing">
-        <div class="arrows-all"></div>
-        <h3>Doing <span class="label-all">(All Segments)</span></h3>
+        <h3>Doing</h3>
         <p>Identify all available options</p>
         
         <ul>
