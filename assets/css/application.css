@@ -1374,66 +1374,66 @@ a {
   background: url('/assets/images/logo-dish.png?1408987684') no-repeat;
 }
 
-.bottom {
+.intro {
   background: #4c4c4e;
   color: #fff;
 }
-.bottom h2 {
+.intro h2 {
   font-size: 44px;
   font-size: 2.75rem;
-  margin-bottom: 24px;
+  margin-intro: 24px;
   font-weight: 300;
   letter-spacing: 0.07em;
   text-transform: uppercase;
 }
-.bottom h3 {
+.intro h3 {
   font-size: 24px;
   font-size: 1.5rem;
-  margin-bottom: 6px;
+  margin-intro: 6px;
   font-weight: 700;
   text-transform: none;
 }
 
-.bottom-section [data-segment] {
+.intro-section [data-segment] {
   position: absolute;
 }
-.bottom-section [data-segment]:nth-child(2) {
+.intro-section [data-segment]:nth-child(2) {
   top: 220px;
 }
-.bottom-section [data-segment]:nth-child(3) {
+.intro-section [data-segment]:nth-child(3) {
   top: 340px;
 }
-.bottom-section [data-segment]:nth-child(4) {
+.intro-section [data-segment]:nth-child(4) {
   top: 460px;
 }
-.bottom-section [data-segment]:nth-child(5) {
+.intro-section [data-segment]:nth-child(5) {
   top: 580px;
 }
-.bottom-section [data-segment]:nth-child(6) {
+.intro-section [data-segment]:nth-child(6) {
   top: 700px;
 }
 
-.bottom-left,
-.bottom-right {
+.intro-left,
+.intro-right {
   padding: 100px 140px 0;
 }
 
-.bottom-left {
+.intro-left {
   text-align: right;
 }
-.bottom-left h2 {
+.intro-left h2 {
   margin-right: -4px;
 }
-.bottom-left [data-segment] {
+.intro-left [data-segment] {
   right: 140px;
   padding-left: 140px;
 }
 
-.bottom-right [data-segment] {
+.intro-right [data-segment] {
   left: 140px;
   padding-right: 140px;
 }
-.bottom-right .position {
+.intro-right .position {
   position: absolute;
   top: 70px;
   left: 140px;

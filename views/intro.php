@@ -1,5 +1,5 @@
   
-<section data-anchor="intro" class="bottom section">
+<section id="intro" data-anchor="intro" class="intro section">
 
   <div class="segment-paths">
     <div class="path-enthusiasts" data-segment="enthusiasts"></div>
@@ -8,7 +8,7 @@
     <div class="path-traditionals" data-segment="traditionals"></div>
   </div>
 
-  <div class="col-left bottom-left bottom-section">
+  <div class="col-left intro-left intro-section">
     
     <h2>Motivation</h2>
   
@@ -34,7 +34,7 @@
 
   </div>
   
-  <div class="col-right bottom-right bottom-section">
+  <div class="col-right intro-right intro-section">
   
     <h2>Segment</h2>
   

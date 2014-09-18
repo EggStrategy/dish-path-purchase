@@ -1,5 +1,5 @@
   
-<section data-anchor="stage3" class="stage stage-3 section">
+<section id="stage3" data-anchor="stage3" class="stage stage-3 section">
 
   <div class="col-left stage-left">
 

@@ -1,5 +1,5 @@
   
-<section data-anchor="full-view" class="full-view section active">
+<section id="full-view" data-anchor="full-view" class="full-view section active">
 
   <div class="full-view-left">
 

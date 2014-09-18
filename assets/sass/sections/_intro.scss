@@ -1,11 +1,11 @@
 
-.bottom {
+.intro {
   background: $dk-grey;
   color: #fff;
   
   h2 {
     @include font-size(44px);
-    margin-bottom: 24px;
+    margin-intro: 24px;
     font-weight: $light;
     letter-spacing: 0.07em;
     text-transform: uppercase;
@@ -13,13 +13,13 @@
   
   h3 {
     @include font-size(24px);
-    margin-bottom: 6px;
+    margin-intro: 6px;
     font-weight: $bold;
     text-transform: none;
   }
 }
 
-.bottom-section [data-segment] {
+.intro-section [data-segment] {
   position: absolute;
   
   &:nth-child(2) {
@@ -44,12 +44,12 @@
 }
 
 
-.bottom-left,
-.bottom-right {
+.intro-left,
+.intro-right {
   padding: 100px 140px 0;
 }
 
-.bottom-left {
+.intro-left {
   text-align: right;
   
   h2 {
@@ -62,7 +62,7 @@
   }
 }
 
-.bottom-right {
+.intro-right {
 
   [data-segment] {
     left: 140px;

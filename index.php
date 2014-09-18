@@ -10,7 +10,7 @@
 
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/stage-1.php'; ?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/views/bottom.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/views/intro.php'; ?>
 
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/full-view.php'; ?>
 
