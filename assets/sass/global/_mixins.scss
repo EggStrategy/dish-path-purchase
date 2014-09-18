@@ -73,6 +73,7 @@
   animation: $animation;
 }
 
+
 // CENTER ALIGN
 @mixin vertical-center($position) {
   @include translateY(-50%);
@@ -109,6 +110,7 @@
   line-height: $size;
   line-height: calculateRem($size);
 }
+
 
 // TRIANGLE
 @mixin down-triangle($size, $color) {

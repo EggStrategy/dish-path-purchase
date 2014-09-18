@@ -1,15 +1,14 @@
 
-
-#fp-nav {
-  position: fixed;
-  top: 50%;
+.section-nav {
+  @include vertical-center(fixed);
   left: 20px;
   z-index: 100;
   opacity: 1;
   margin-top: -32px;
 }
 
-#fp-nav a {
+.section-nav a {
+    @include font-size(12px);
   position: relative;
   z-index: 20;
   display: block;
@@ -17,31 +16,21 @@
   height: 24px;
   border-radius: 50%;
   background: $lt-green;
+  color: #fff;
+  font-weight: $bold;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.9;
   
   &.active {
     background: #fff;
     border: 3px solid $lt-green;
-  }
-
-  span:before {
-    @include font-size(12px);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    color: #fff;
-    font-weight: $bold;
-    font-style: italic;
-    text-align: center;
+    color: $lt-green;
+    line-height: 1.5;
   }
 }
 
-#fp-nav .active span:before {
-  top: -3px;
-  color: $lt-green;
-}
-
-#fp-nav li {
+.section-nav li {
   position: relative;
   margin-bottom: 30px;
   
@@ -50,36 +39,7 @@
   }
 }
 
-#fp-nav li:nth-child(1) span:before {
-  content: "5";
-}
-
-#fp-nav li:nth-child(2) span:before {
-  content: "4";
-}
-
-#fp-nav li:nth-child(3) span:before {
-  content: "3";
-}
-
-#fp-nav li:nth-child(4) span:before {
-  content: "2";
-}
-
-#fp-nav li:nth-child(5) span:before {
-  content: "1";
-}
-
-#fp-nav li:nth-child(6) span:before {
-  content: "0";
-}
-
-#fp-nav li:nth-child(7) span:before {
-  content: "F";
-}
-
-
-.fp-tooltip {
+.tooltip {
   @include font-size(14px);
   position: absolute;
   top: -2px;

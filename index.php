@@ -14,6 +14,8 @@
 
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/full-view.php'; ?>
 
+<?php include $_SERVER['DOCUMENT_ROOT'].'/views/section-nav.php'; ?>
+
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/stage-footer.php'; ?>
 
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/footer.php'; ?>

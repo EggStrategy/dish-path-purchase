@@ -305,13 +305,30 @@ em {
   background: url('/assets/images/arrow-down-s1.png?1408641114') no-repeat;
 }
 
-.col-left,
-.col-right {
+/*
   position: absolute;
   top: 0;
   bottom: 0;
+*/
+.col-left,
+.col-right {
+  *zoom: 1;
+  position: relative;
+  float: left;
   width: 50%;
+  min-width: 700px;
   height: 100%;
+  min-height: 780px;
+}
+.col-left:before, .col-left:after,
+.col-right:before,
+.col-right:after {
+  content: " ";
+  display: block;
+}
+.col-left:after,
+.col-right:after {
+  clear: both;
 }
 
 .col-left {
@@ -330,6 +347,15 @@ em {
 body, html {
   width: 100%;
   height: 100%;
+}
+
+#fullpage {
+  min-width: 1400px;
+}
+
+.section {
+  position: relative;
+  min-height: 700px;
 }
 
 .content-wrapper {
@@ -611,109 +637,6 @@ a {
   }
 }
 
-/**
-* fullPage 2.1.9
-* https://github.com/alvarotrigo/fullPage.js
-* MIT licensed
-*
-* Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
-*/
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  /*Avoid flicker on slides transitions for mobile phones #336 */
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.fp-section {
-  position: relative;
-  -webkit-box-sizing: border-box;
-  /* Safari<=5 Android<=3 */
-  -moz-box-sizing: border-box;
-  /* <=28 */
-  box-sizing: border-box;
-}
-
-.fp-section.fp-table, .fp-slide.fp-table {
-  display: table;
-  width: 100%;
-}
-
-.fp-tableCell {
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-}
-
-.fp-controlArrow {
-  position: absolute;
-  z-index: 4;
-  top: 50%;
-  cursor: pointer;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  margin-top: -38px;
-}
-
-.fp-controlArrow.fp-prev {
-  left: 15px;
-  width: 0;
-  border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #fff transparent transparent;
-}
-
-.fp-controlArrow.fp-next {
-  right: 15px;
-  border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #fff;
-}
-
-.fp-scrollable {
-  overflow: scroll;
-}
-
-.fp-easing {
-  -webkit-transition: all 0.7s ease-out;
-  /* Safari<=6 Android<=4.3 */
-  transition: all 0.7s ease-out;
-}
-
-.fp-slidesContainer {
-  float: left;
-  position: relative;
-}
-
-.fp-slide {
-  float: left;
-}
-
-.fp-slide, .fp-slidesContainer {
-  height: 100%;
-  display: block;
-}
-
-.fp-slides {
-  z-index: 1;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  -webkit-transition: all 0.3s ease-out;
-  /* Safari<=6 Android<=4.3 */
-  transition: all 0.3s ease-out;
-}
-
-#superContainer {
-  height: 100%;
-  position: relative;
-  /* Touch detection for Windows 8 */
-  -ms-touch-action: none;
-  /* IE 11 on Windows Phone 8.1*/
-  touch-action: none;
-}
-
 .modal {
   display: none;
   position: absolute;
@@ -792,9 +715,17 @@ html, body {
 }
 
 .stage {
+  *zoom: 1;
   position: relative;
   width: 100%;
   height: 100%;
+}
+.stage:before, .stage:after {
+  content: " ";
+  display: block;
+}
+.stage:after {
+  clear: both;
 }
 
 .stage-1 {
@@ -838,13 +769,11 @@ html, body {
 }
 
 .stage-left {
-  margin-right: 30px;
   padding: 40px 50px 40px 80px;
   border-right: 30px solid #4c4c4e;
 }
 
 .stage-right {
-  margin-left: 30px;
   padding: 40px 80px 40px 60px;
   background: #fff;
   border-left: 30px solid #4c4c4e;
@@ -1085,7 +1014,12 @@ html, body {
   left: -38px;
 }
 
-#fp-nav {
+.section-nav {
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
   position: fixed;
   top: 50%;
   left: 20px;
@@ -1094,7 +1028,9 @@ html, body {
   margin-top: -32px;
 }
 
-#fp-nav a {
+.section-nav a {
+  font-size: 12px;
+  font-size: 0.75rem;
   position: relative;
   z-index: 20;
   display: block;
@@ -1102,66 +1038,28 @@ html, body {
   height: 24px;
   border-radius: 50%;
   background: #0fba70;
-}
-#fp-nav a.active {
-  background: #fff;
-  border: 3px solid #0fba70;
-}
-#fp-nav a span:before {
-  font-size: 12px;
-  font-size: 0.75rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
   color: #fff;
   font-weight: 700;
   font-style: italic;
   text-align: center;
+  line-height: 1.9;
 }
-
-#fp-nav .active span:before {
-  top: -3px;
+.section-nav a.active {
+  background: #fff;
+  border: 3px solid #0fba70;
   color: #0fba70;
+  line-height: 1.5;
 }
 
-#fp-nav li {
+.section-nav li {
   position: relative;
   margin-bottom: 30px;
 }
-#fp-nav li:last-child {
+.section-nav li:last-child {
   margin-bottom: 0;
 }
 
-#fp-nav li:nth-child(1) span:before {
-  content: "5";
-}
-
-#fp-nav li:nth-child(2) span:before {
-  content: "4";
-}
-
-#fp-nav li:nth-child(3) span:before {
-  content: "3";
-}
-
-#fp-nav li:nth-child(4) span:before {
-  content: "2";
-}
-
-#fp-nav li:nth-child(5) span:before {
-  content: "1";
-}
-
-#fp-nav li:nth-child(6) span:before {
-  content: "0";
-}
-
-#fp-nav li:nth-child(7) span:before {
-  content: "F";
-}
-
-.fp-tooltip {
+.tooltip {
   font-size: 14px;
   font-size: 0.875rem;
   position: absolute;
@@ -1352,6 +1250,7 @@ html, body {
 }
 
 .full-view {
+  min-height: 810px;
   background: #6c6c6c url('/assets/images/bg-full-view-gradient.jpg?1409091743') repeat-x left top;
 }
 
