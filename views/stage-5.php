@@ -68,7 +68,7 @@
       <div class="mood">Excited</div>
     </div>
     
-    <div class="path-2" data-segment="enthusiasts"></div>
+    <div class="path-2 path-end" data-segment="enthusiasts"></div>
     
   </div>
   

@@ -1117,6 +1117,9 @@ a {
   width: 4px;
   height: 100%;
 }
+.stage-paths [class*="path-"].path-end {
+  top: 160px;
+}
 
 .stage-paths .path-1 {
   left: 9px;
@@ -1577,6 +1580,7 @@ a {
 .stage-5 .stage-right,
 .stage-5 .stage-paths {
   margin-top: 389px;
+  min-height: 400px;
 }
 
 .stage-5 .stage-right {
@@ -1624,8 +1628,4 @@ a {
   clear: both;
   padding-top: 20px;
   font-style: italic;
-}
-
-.stage-5 .stage-paths .path-2 {
-  top: 100px;
 }
