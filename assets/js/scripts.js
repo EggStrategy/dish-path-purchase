@@ -1,19 +1,6 @@
 $(function(){
-/*
 
-		$(document).on({
-			mouseenter: function(){
-				var tooltip = $(this).data('tooltip');
-				$('<div class="fp-tooltip ' + options.navigationPosition +'">' + tooltip + '</div>').hide().appendTo($(this)).fadeIn(200);
-			},
-			mouseleave: function(){
-				$(this).find('.fp-tooltip').fadeOut(200, function() {
-					$(this).remove();
-				});
-			}
-		}, '#fp-nav li');
-*/
-
+  window.scrollTo(0, document.body.scrollHeight);
 
   sectionNavScroll = function() {
   
