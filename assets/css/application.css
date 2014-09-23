@@ -845,6 +845,15 @@ a {
   height: 297px;
 }
 
+.arrow-triggers-hisp {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  background: url('/assets/images/arrow-triggers-hisp.png?1411505877') no-repeat;
+  width: 80px;
+  height: 140px;
+}
+
 .water-drops {
   position: absolute;
   top: 300px;
@@ -1622,16 +1631,16 @@ a {
 .stage-5 .circles {
   position: absolute;
   top: 0;
-  right: 300px;
+  right: 302px;
   width: 355px;
-  height: 384px;
-  background: url('/assets/images/circles-s5.png?1408661817') no-repeat;
+  height: 386px;
+  background: url('/assets/images/circles-s5.png?1411505509') no-repeat;
 }
 
 .stage-5 .arrows {
   position: absolute;
   top: 396px;
-  right: 466px;
+  right: 470px;
   width: 25px;
   height: 100%;
   background: url('/assets/images/arrows-s5.png?1408662046') no-repeat;
@@ -1641,6 +1650,18 @@ a {
   top: 60px;
   right: 90px;
   text-align: left;
+}
+.stage-5 .triggers.hispanic {
+  top: 410px;
+  right: 50px;
+  width: 310px;
+  padding-left: 100px;
+  color: #115663;
+}
+.stage-5 .triggers.hispanic li:first-child {
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-style: italic;
 }
 
 .stage-5 .barriers {

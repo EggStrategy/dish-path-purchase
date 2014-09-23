@@ -15,6 +15,15 @@
         <li>Clear and transparent billing</li>
       </ul>
     </div>
+    
+    <div class="triggers hispanic">
+      <ul>
+        <li>Hispanic Specific Triggers</li>
+        <li>Input from friends and family</li>
+        <li>Existing trust in out of category provider</li>
+      </ul>
+      <div class="arrow-triggers-hisp"></div>
+    </div>
 
     <div class="barriers">
       <h2>Barriers</h2>
