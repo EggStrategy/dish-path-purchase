@@ -288,7 +288,7 @@ em {
 }
 
 [class*="arrow-thinking-"] {
-  background: url('/assets/images/arrows.svg?1411504870') no-repeat;
+  background: url('/assets/images/arrows.svg?1411505143') no-repeat;
   width: 31px;
   height: 11px;
 }
@@ -1580,9 +1580,9 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  width: 658px;
+  width: 515px;
   height: 612px;
-  background: url('/assets/images/paths-circles-s4.png?1408657348') no-repeat;
+  background: url('/assets/images/paths-circles-s4.png?1411505364') no-repeat;
 }
 
 .stage-4 .triggers {

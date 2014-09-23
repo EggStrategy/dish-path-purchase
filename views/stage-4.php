@@ -46,6 +46,7 @@
           <li data-segment="flexibles"><span class="arrow-thinking-2"></span><span class="label">Flexibles:</span> Experiment with alternative solutions in an effort to cut the cord and use only alternative options</li>
           <li data-segment="indulgers"><span class="arrow-thinking-3"></span><span class="label">Indulgers:</span> Unlikely to Experiment or Negotiate, due to higher income and more complacency</li>
           <li data-segment="traditionals"><span class="arrow-thinking-4"></span><span class="label">Traditionals & Practicals:</span> Negotiate with current provider in an effort to secure a rate reduction</li>
+          <li data-segment="hispanics"><span class="arrow-thinking-5"></span><span class="label">Hispanics:</span> Progress directly to switch, no efforts to resolve situation with existing provider or experiment with cord cutting</li>
         </ul>
       </div>
 
