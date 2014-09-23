@@ -5,11 +5,12 @@
   bottom: 0;
   z-index: 50;
   width: 100%;
-  background: $dk-grey;
+  min-width: 1400px;
+  background: $grey;
   border-top: 1px solid $black;
   
   a {
-    @include font-size(15px);
+    @include font-size(13px);
     display: block;
     float: left;
     color: #fff;
@@ -22,8 +23,8 @@
   position: relative;
   float: left;
   height: 66px;
-  margin-left: 20px;
-  padding: 20px 20px 0 20px;
+  padding: 20px 30px 0 30px;
+  background: $dk-grey;
   
   &:hover {
     background: $black;
@@ -54,7 +55,7 @@
   a {
     position: relative;
     height: 66px;
-    padding: 20px 30px 0 100px;
+    padding: 20px 20px 0 80px;
     border-right: 1px solid rgba(#fff, 0.2);
     font-weight: $bold;
     
@@ -62,8 +63,8 @@
       padding: 20px 30px;
     }
 
-    &:last-child {
-      max-width: 270px;
+    &:nth-child(5) {
+      max-width: 220px;
       padding-top: 14px;
       line-height: 18px;
     }
@@ -75,7 +76,7 @@
   
   [class*="icon-"] {
     position: absolute;
-    left: 34px;
+    left: 20px;
     top: 6px;
   }
 }

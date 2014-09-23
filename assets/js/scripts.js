@@ -68,63 +68,6 @@ $(function(){
     });
 
   }
-
- /*
-  sectionHeight = function() {
-    
-    var windowHeight = $(window).height();
-    var section = $('section');
-    var stageCol = $('[class^="col-"]');
-    
-    section.css('min-height', windowHeight);
-    $(section).not('.stage-5').find(stageCol).css('min-height', windowHeight);
-    
-  }
-
-
- $('#fullpage').fullpage({
-    paddingBottom: '66px',
-    scrollingSpeed: 700,
-    easing: 'swing',
-    normalScrollElements: '#full-view',
-    navigation: true,
-    autoScrolling: false,
-    verticalCentered: false,
-    resize: false,
-    
-    navigationTooltips: ['Switch', 'Resolve', 'Evaluation', 'Exploration', 'Preparation', 'Intro', 'Full View'],
-    anchors: ['stage5', 'stage4', 'stage3', 'stage2', 'stage1', 'intro', 'full-view'],
-        
-    afterLoad: function(anchorLink, index){
-    
-      if(anchorLink == 'stage1'){
-        $('.stage-1 .triggers').addClass('fadeInUp animated');
-      }
-      
-      if(anchorLink == 'stage2'){
-        $('.stage-2 .triggers').addClass('fadeInUp animated');
-      }
-            
-      if(anchorLink == 'stage3'){
-        $('.stage-3 .triggers').addClass('fadeInUp animated');
-      }
-      
-      if(anchorLink == 'stage4'){
-        $('.stage-4 .triggers').addClass('fadeInUp animated');
-      }
-      
-      if(anchorLink == 'stage5'){
-        $('.stage-5 .triggers').addClass('fadeInUp animated');
-      }
-    
-    }
-    
-  });
-  
-  $('.slide-up-btn').click(function(){
-    $.fn.fullpage.moveSectionUp();
-  });
-*/
   
   segmentNav = function() {
     
@@ -133,7 +76,7 @@ $(function(){
     navLink.on('click',function(e){
       e.preventDefault();
       var body = $('body');
-      var segment = $('[data-segment]');
+      var segment = $('.section [data-segment]');
       var navLinkSegment = $(this).attr('data-segment');
       var segmentData = segment.attr('data-segment');
       

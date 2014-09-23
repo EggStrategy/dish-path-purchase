@@ -195,7 +195,13 @@ em {
 .icon-traditionals {
   width: 51px;
   height: 52px;
-  background: url('/assets/images/icon-traditionals.svg?1408637448') no-repeat;
+  background: url('/assets/images/icon-traditionals.svg?1411502071') no-repeat;
+}
+
+.icon-hispanics {
+  width: 47px;
+  height: 50px;
+  background: url('/assets/images/icon-hispanics.svg?1411500751') no-repeat;
 }
 
 [class*="icon-mood-"] {
@@ -1148,12 +1154,13 @@ a {
   bottom: 0;
   z-index: 50;
   width: 100%;
-  background: #4c4c4e;
+  min-width: 1400px;
+  background: #6c6c6c;
   border-top: 1px solid #282828;
 }
 .stage-footer a {
-  font-size: 15px;
-  font-size: 0.9375rem;
+  font-size: 13px;
+  font-size: 0.8125rem;
   display: block;
   float: left;
   color: #fff;
@@ -1165,8 +1172,8 @@ a {
   position: relative;
   float: left;
   height: 66px;
-  margin-left: 20px;
-  padding: 20px 20px 0 20px;
+  padding: 20px 30px 0 30px;
+  background: #4c4c4e;
 }
 .recomend-link:hover {
   background: #282828;
@@ -1197,15 +1204,15 @@ a {
 .segment-nav a {
   position: relative;
   height: 66px;
-  padding: 20px 30px 0 100px;
+  padding: 20px 20px 0 80px;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   font-weight: 700;
 }
 .segment-nav a:first-child {
   padding: 20px 30px;
 }
-.segment-nav a:last-child {
-  max-width: 270px;
+.segment-nav a:nth-child(5) {
+  max-width: 220px;
   padding-top: 14px;
   line-height: 18px;
 }
@@ -1214,7 +1221,7 @@ a {
 }
 .segment-nav [class*="icon-"] {
   position: absolute;
-  left: 34px;
+  left: 20px;
   top: 6px;
 }
 
