@@ -2,6 +2,7 @@
 <section id="intro" data-anchor="intro" class="intro section">
 
   <div class="segment-paths">
+    <div class="path-hispanics" data-segment="hispanics"></div>
     <div class="path-enthusiasts" data-segment="enthusiasts"></div>
     <div class="path-flexibles" data-segment="flexibles"></div>
     <div class="path-indulgers" data-segment="indulgers"></div>
@@ -32,6 +33,11 @@
       <p>Spend time together as a family, background noise.</p>
     </div>
 
+    <div data-segment="hispanics">
+      <h3>Hispanics</h3>
+      <p>Maintain connection to cultural heritage and indulge in favorite programming.</p>
+    </div>
+
   </div>
   
   <div class="col-right intro-right intro-section">
@@ -56,6 +62,11 @@
     <div data-segment="traditionals">
       <h3>Traditionals &amp; Practicals</h3>
       <p>Low category engagement, relies on live programming.</p>
+    </div>
+
+    <div data-segment="hispanics">
+      <h3>Hispanics</h3>
+      <p>Medium category engagement, strongly concerned with quality programming and internet that meets children&#39;s needs.</p>
     </div>
 
     <div class="position">0 / 5</div>  

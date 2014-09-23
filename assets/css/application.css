@@ -177,13 +177,13 @@ em {
 .icon-enthusiasts {
   width: 47px;
   height: 50px;
-  background: url('/assets/images/icon-enthusiasts.svg?1408637448') no-repeat;
+  background: url('/assets/images/icon-enthusiasts.svg?1411503498') no-repeat;
 }
 
 .icon-flexibles {
   width: 47px;
   height: 51px;
-  background: url('/assets/images/icon-flexibles.svg?1408637448') no-repeat;
+  background: url('/assets/images/icon-flexibles.svg?1411503539') no-repeat;
 }
 
 .icon-indulgers {
@@ -1389,13 +1389,13 @@ a {
 }
 
 .intro {
-  background: #4c4c4e;
+  min-height: 880px;
+  background: #6c6c6c;
   color: #fff;
 }
 .intro h2 {
   font-size: 44px;
   font-size: 2.75rem;
-  margin-intro: 24px;
   font-weight: 300;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -1403,33 +1403,37 @@ a {
 .intro h3 {
   font-size: 24px;
   font-size: 1.5rem;
-  margin-intro: 6px;
+  margin-bottom: 4px;
   font-weight: 700;
   text-transform: none;
+}
+.intro p {
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .intro-section [data-segment] {
   position: absolute;
 }
 .intro-section [data-segment]:nth-child(2) {
-  top: 220px;
+  top: 174px;
 }
 .intro-section [data-segment]:nth-child(3) {
-  top: 340px;
+  top: 278px;
 }
 .intro-section [data-segment]:nth-child(4) {
-  top: 460px;
+  top: 400px;
 }
 .intro-section [data-segment]:nth-child(5) {
-  top: 580px;
+  top: 512px;
 }
 .intro-section [data-segment]:nth-child(6) {
-  top: 700px;
+  top: 618px;
 }
 
 .intro-left,
 .intro-right {
-  padding: 100px 140px 0;
+  padding: 86px 140px 0;
 }
 
 .intro-left {
@@ -1449,7 +1453,7 @@ a {
 }
 .intro-right .position {
   position: absolute;
-  top: 70px;
+  top: 60px;
   left: 140px;
   font-style: italic;
 }
@@ -1467,31 +1471,38 @@ a {
 }
 
 .path-enthusiasts {
-  left: 45px;
-  width: 109px;
-  height: 302px;
-  background: url('/assets/images/path-enthusiasts.png?1408679128') no-repeat;
+  left: 54px;
+  width: 91px;
+  height: 246px;
+  background: url('/assets/images/path-enthusiasts.png?1411503147') no-repeat;
 }
 
 .path-flexibles {
-  right: 22px;
-  width: 128px;
-  height: 427px;
-  background: url('/assets/images/path-flexibles.png?1408679054') no-repeat;
+  right: 34px;
+  width: 111px;
+  height: 359px;
+  background: url('/assets/images/path-flexibles.png?1411503198') no-repeat;
 }
 
 .path-indulgers {
-  left: 0;
-  width: 153px;
-  height: 551px;
-  background: url('/assets/images/path-indulgers.png?1408678963') no-repeat;
+  left: 28px;
+  width: 118px;
+  height: 473px;
+  background: url('/assets/images/path-indulgers.png?1411503015') no-repeat;
 }
 
 .path-traditionals {
-  right: 0;
-  width: 156px;
-  height: 678px;
-  background: url('/assets/images/path-traditionals.png?1408678423') no-repeat;
+  right: 16px;
+  width: 132px;
+  height: 588px;
+  background: url('/assets/images/path-traditionals.png?1411503252') no-repeat;
+}
+
+.path-hispanics {
+  left: 12px;
+  width: 134px;
+  height: 700px;
+  background: url('/assets/images/path-hispanics.png?1411502851') no-repeat;
 }
 
 .stage-1 .stage-right {

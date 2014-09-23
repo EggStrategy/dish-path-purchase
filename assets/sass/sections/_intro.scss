@@ -1,11 +1,11 @@
 
 .intro {
-  background: $dk-grey;
+  min-height: 880px;
+  background: $grey;
   color: #fff;
   
   h2 {
     @include font-size(44px);
-    margin-intro: 24px;
     font-weight: $light;
     letter-spacing: 0.07em;
     text-transform: uppercase;
@@ -13,9 +13,13 @@
   
   h3 {
     @include font-size(24px);
-    margin-intro: 6px;
+    margin-bottom: 4px;
     font-weight: $bold;
     text-transform: none;
+  }
+  
+  p {
+    @include font-size(14px);
   }
 }
 
@@ -23,30 +27,30 @@
   position: absolute;
   
   &:nth-child(2) {
-    top: 220px;
+    top: 174px;
   }
 
   &:nth-child(3) {
-    top: 340px;
+    top: 278px;
   }
 
   &:nth-child(4) {
-    top: 460px;
+    top: 400px;
   }
 
   &:nth-child(5) {
-    top: 580px;
+    top: 512px;
   }
 
   &:nth-child(6) {
-    top: 700px;
+    top: 618px;
   }
 }
 
 
 .intro-left,
 .intro-right {
-  padding: 100px 140px 0;
+  padding: 86px 140px 0;
 }
 
 .intro-left {
@@ -71,7 +75,7 @@
   
   .position {
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 140px;
     font-style: italic;
   }
@@ -91,29 +95,36 @@
 }
 
 .path-enthusiasts {
-  left: 45px;
-  width: 109px;
-  height: 302px;
+  left: 54px;
+  width: 91px;
+  height: 246px;
   background: $path-enthusiasts no-repeat;
 }
 
 .path-flexibles {
-  right: 22px;
-  width: 128px;
-  height: 427px;
+  right: 34px;
+  width: 111px;
+  height: 359px;
   background: $path-flexibles no-repeat;
 }
 
 .path-indulgers {
-  left: 0;
-  width: 153px;
-  height: 551px;
+  left: 28px;
+  width: 118px;
+  height: 473px;
   background: $path-indulgers no-repeat;
 }
 
 .path-traditionals {
-  right: 0;
-  width: 156px;
-  height: 678px;
+  right: 16px;
+  width: 132px;
+  height: 588px;
   background: $path-traditionals no-repeat;
+}
+
+.path-hispanics {
+  left: 12px;
+  width: 134px;
+  height: 700px;
+  background: $path-hispanics no-repeat;
 }
