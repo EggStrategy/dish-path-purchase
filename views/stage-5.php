@@ -68,6 +68,7 @@
       <div class="mood">Excited</div>
     </div>
     
+    <div class="path-5 path-end" data-segment="hispanics"></div>
     <div class="path-2 path-end" data-segment="enthusiasts"></div>
     
   </div>

@@ -77,6 +77,7 @@
       <div class="mood">Frustrated</div>
     </div>
     
+    <div class="path-5" data-segment="hispanics"></div>
     <div class="path-1 path-end" data-segment="indulgers"></div>
     <div class="path-2" data-segment="enthusiasts"></div>
     <div class="path-3" data-segment="flexibles"></div>

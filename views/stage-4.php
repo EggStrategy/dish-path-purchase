@@ -66,6 +66,7 @@
       <div class="mood">Determined</div>
     </div>
     
+    <div class="path-5" data-segment="hispanics"></div>
     <div class="path-2" data-segment="enthusiasts"></div>
     <div class="path-3 path-end" data-segment="flexibles"></div>
     <div class="path-4 path-end" data-segment="traditionals"></div>

@@ -3,10 +3,10 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 61px;
+  width: 66px;
   height: 100%;
-  margin-left: -30px;
-  background: $dk-grey;
+  margin-left: -33px;
+  background: $grey;
   
 }
 
@@ -40,23 +40,28 @@
 }
 
 .stage-paths {
+  .path-5 {
+    left: 7px;
+    background: $dk-green;
+  }
+
   .path-1 {
-    left: 9px;
+    left: 19px;
     background: $purple;
   }
   
   .path-2 {
-    left: 22px;
+    left: 31px;
     background: $orange;
   }
   
   .path-3 {
-    right: 22px;
+    right: 19px;
     background: $lime;
   }
   
   .path-4 {
-    right: 9px;
+    right: 7px;
     background: $blue;
   }
 }
