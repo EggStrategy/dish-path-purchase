@@ -47,6 +47,7 @@
           <li data-segment="indulgers"><span class="arrow-thinking-3"></span><span class="label">Indulgers:</span> Online research 
 (TV provider websites), word of mouth </li>
           <li data-segment="traditionals"><span class="arrow-thinking-4"></span><span class="label">Traditionals & Practicals:</span> Advertising (TV, newspaper / magazine, direct mail), word of mouth</li>
+          <li data-segment="hispanics"><span class="arrow-thinking-5"></span><span class="label">Hispanics:</span> Advertising (TV, direct mail), Online research (TV provider websites)</li>
         </ul>
       </div>
 

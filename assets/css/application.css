@@ -288,7 +288,7 @@ em {
 }
 
 [class*="arrow-thinking-"] {
-  background: url('/assets/images/arrows.svg?1408637448') no-repeat;
+  background: url('/assets/images/arrows.svg?1411504870') no-repeat;
   width: 31px;
   height: 11px;
 }
@@ -303,6 +303,10 @@ em {
 
 .arrow-thinking-4 {
   background-position: 0 -42px;
+}
+
+.arrow-thinking-5 {
+  background-position: 0 -57px;
 }
 
 .arrow-down-s1 {
