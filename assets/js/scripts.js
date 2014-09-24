@@ -51,9 +51,7 @@ $(function(){
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000, function() {
-          target.find('.triggers').addClass('fadeInUp animated');          
-        });
+        }, 1000);
       }
     });
     
@@ -73,8 +71,13 @@ $(function(){
       
       for (var i=0; i < aArray.length; i++) {
         var theID = aArray[i];
+        var stage = $('.stage');
         var sectionPos = $(theID).offset().top; // get the offset of the div from the top of page
         var sectionHeight = $(theID).height(); // get the height of the div in question
+
+        if (windowPos > (sectionPos - 40) && windowPos < (sectionPos + 40)) {
+          $(theID).find('.triggers').addClass('fadeInUp animated');
+        }
         
         if (windowPos >= sectionPos && windowPos < (sectionPos + sectionHeight)) {
           $(".section-nav a[href='" + theID + "']").addClass('active');
