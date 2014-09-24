@@ -1277,8 +1277,8 @@ a {
 }
 
 .full-view {
-  min-height: 810px;
-  background: #6c6c6c url('/assets/images/bg-full-view-gradient.jpg?1409091743') repeat-x left top;
+  height: 850px;
+  background: #6c6c6c url('/assets/images/bg-full-view-gradient.jpg?1411589504') repeat-x left top;
 }
 
 .full-fountain {
@@ -1288,7 +1288,7 @@ a {
   right: 0;
   width: 100%;
   height: 100%;
-  background: url('/assets/images/bg-full-view.jpg?1409091682') no-repeat center top;
+  background: url('/assets/images/bg-full-view.jpg?1411587721') no-repeat center top;
 }
 
 .full-view-left,
@@ -1361,29 +1361,29 @@ a {
 }
 
 .stage-label-5 {
-  top: 58px;
+  top: 78px;
 }
 
 .stage-label-4 {
-  top: 142px;
+  top: 162px;
 }
 
 .stage-label-3 {
-  top: 294px;
+  top: 314px;
 }
 
 .stage-label-2 {
-  top: 418px;
+  top: 442px;
 }
 
 .stage-label-1 {
-  top: 536px;
+  top: 558px;
 }
 
 .dish-logo {
-  position: absolute;
-  top: 24px;
-  left: 60px;
+  position: fixed;
+  top: 60px;
+  left: 72px;
   z-index: 20;
 }
 .dish-logo h4 {

@@ -1,6 +1,6 @@
 
 .full-view {
-  min-height: 810px;
+  height: 850px;
   background: $grey $bg-full-view-gradient repeat-x left top;
 }
 
@@ -85,30 +85,29 @@
 }
 
 .stage-label-5 {
-  top: 58px;
+  top: 78px;
 }
 
 .stage-label-4 {
-  top: 142px;
+  top: 162px;
 }
 
 .stage-label-3 {
-  top: 294px;
+  top: 314px;
 }
 
 .stage-label-2 {
-  top: 418px;
+  top: 442px;
 }
 
 .stage-label-1 {
-  top: 536px;
+  top: 558px;
 }
 
-
 .dish-logo {
-  position: absolute;
-  top: 24px;
-  left: 60px;
+  position: fixed;
+  top: 60px;
+  left: 72px;
   z-index: 20;
   
   h4 {

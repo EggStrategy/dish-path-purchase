@@ -1,11 +1,36 @@
 $(function(){
 
   window.scrollTo(0, document.body.scrollHeight);
-
+  
+  logoFade = function() {
+    $(window).scroll(function(){
+      var windowPos = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      var docHeight = $(document).height();
+      var logo = $('.dish-logo');
+      
+      if((windowPos + windowHeight) < docHeight) {
+        logo.fadeOut();
+      } else {
+        logo.fadeIn();
+      }
+    });
+  } 
+  
   sectionNavScroll = function() {
   
     var navListItem = $('.section-nav li');
     var navLink = $('.section-nav a');
+    var fullViewUpBtn = $('.slide-up-btn');
+    
+    fullViewUpBtn.on('click', function(e) {
+      e.preventDefault();
+      var introPos = $('#intro').offset();
+      
+      $('html,body').animate({
+        scrollTop: introPos.top
+      }, 1000);      
+    });
   
     navListItem.on({
       mouseenter: function() {
@@ -34,6 +59,7 @@ $(function(){
     
     var aChildren = $('.section-nav li').children(); // find the a children of the list items
     var aArray = []; // create the empty aArray
+    
     for (var i=0; i < aChildren.length; i++) {    
       var aChild = aChildren[i];
       var ahref = $(aChild).attr('href');
@@ -49,7 +75,6 @@ $(function(){
         var theID = aArray[i];
         var sectionPos = $(theID).offset().top; // get the offset of the div from the top of page
         var sectionHeight = $(theID).height(); // get the height of the div in question
-        
         
         if (windowPos >= sectionPos && windowPos < (sectionPos + sectionHeight)) {
           $(".section-nav a[href='" + theID + "']").addClass('active');
@@ -129,6 +154,7 @@ $(function(){
   }
     
   // sectionHeight();
+  logoFade();
   sectionNavScroll();
   segmentNav();
   waterDrops();
