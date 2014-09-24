@@ -1159,6 +1159,7 @@ a {
 .stage-paths .path-4 {
   right: 7px;
   background: #0cb3da;
+  background: repeating-linear-gradient(180deg, #0cb3da, #0cb3da 6px, #fac512 6px, #fac512 16px);
 }
 
 .stage-footer {

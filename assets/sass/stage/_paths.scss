@@ -63,5 +63,6 @@
   .path-4 {
     right: 7px;
     background: $blue;
+    background: repeating-linear-gradient(180deg, $blue, $blue 6px, $yellow 6px, $yellow 16px);
   }
 }
