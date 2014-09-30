@@ -5,11 +5,10 @@ $(function(){
   logoFade = function() {
     $(window).scroll(function(){
       var windowPos = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      var docHeight = $(document).height();
+      var fullViewPos = $('#full-view').offset().top;
       var logo = $('.dish-logo');
       
-      if((windowPos + windowHeight) < docHeight) {
+      if (windowPos < (fullViewPos - 40)) {
         logo.fadeOut();
       } else {
         logo.fadeIn();

@@ -1,8 +1,6 @@
 </div>
 
 <footer class="stage-footer">
-  <a href="" class="recomend-link"><span class="icon-recommendations"></span> Recommendations</a>
-
   <nav class="segment-nav">
     <a href="" data-segment="all">All Segments</a>
     <a href="" data-segment="enthusiasts"><span class="icon-enthusiasts"></span> Enthusiasts</a>

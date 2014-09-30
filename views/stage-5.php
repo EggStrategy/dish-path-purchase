@@ -1,4 +1,3 @@
-  
 <section id="stage5" data-anchor="stage5" class="stage stage-5 section">
 
   <div class="stage-bg"></div>
@@ -86,7 +85,5 @@
     <div class="time-length">Timeline: <span class="label">Days to Weeks</span></div>
     <div class="time-span"></div>
   </div>
-
-  <?php include $_SERVER['DOCUMENT_ROOT'].'/views/recommendations/stage-5.php'; ?>
 
 </section>
