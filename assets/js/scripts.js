@@ -71,7 +71,6 @@ $(function(){
       
       for (var i=0; i < aArray.length; i++) {
         var theID = aArray[i];
-        var stage = $('.stage');
         var sectionPos = $(theID).offset().top; // get the offset of the div from the top of page
         var sectionHeight = $(theID).height(); // get the height of the div in question
 
@@ -79,7 +78,7 @@ $(function(){
           $(theID).find('.triggers').addClass('fadeInUp animated');
         }
         
-        if (windowPos >= sectionPos && windowPos < (sectionPos + sectionHeight)) {
+        if (windowPos >= (sectionPos - 300) && windowPos < ( (sectionPos - 300) + sectionHeight)) {
           $(".section-nav a[href='" + theID + "']").addClass('active');
         } else {
           $(".section-nav a[href='" + theID + "']").removeClass('active');

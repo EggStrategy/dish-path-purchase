@@ -51,6 +51,7 @@
           <li data-segment="flexibles"><span class="arrow-thinking-2"></span><span class="label">Flexibles:</span> Visit provider websites, forums, reviews and blogs</li>
           <li data-segment="indulgers"><span class="arrow-thinking-3"></span><span class="label">Indulgers:</span> Visit provider websites, talk to friends/family/neighbors, call providers</li>
           <li data-segment="traditionals"><span class="arrow-thinking-4"></span><span class="label">Traditionals & Practicals:</span> Direct mail, call providers, talk to friends and family</li>
+          <li data-segment="hispanics"><span class="arrow-thinking-5"></span><span class="label">Hispanics:</span> Talk to friends and family, call TV providers, visit TV provider websites</li>
         </ul>
       </div>
 
@@ -63,6 +64,7 @@
           <li data-segment="flexibles"><span class="arrow-thinking-2"></span><span class="label">Flexibles:</span> High speed internet, bundling</li>
           <li data-segment="indulgers"><span class="arrow-thinking-3"></span><span class="label">Indulgers:</span> Premium channels, DVR, high speed internet, On Demand, HD/li>
           <li data-segment="traditionals"><span class="arrow-thinking-4"></span><span class="label">Traditionals & Practicals:</span> Customer service, internet</li>
+          <li data-segment="hispanics"><span class="arrow-thinking-5"></span><span class="label">Hispanics:</span> Latino programming, bundling, quality kids programming, high speed internet</li>
         </ul>
       </div>
     
