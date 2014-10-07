@@ -7,6 +7,6 @@
     <a href="" data-segment="flexibles"><span class="icon-flexibles"></span> Flexibles</a>
     <a href="" data-segment="indulgers"><span class="icon-indulgers"></span> Indulgers</a>
     <a href="" data-segment="traditionals"><span class="icon-traditionals"></span> Traditionals & Practicals</a>
-    <a href="" data-segment="hispanics"><span class="icon-hispanics"></span> Hipsanics</a>
+    <a href="" data-segment="hispanics"><span class="icon-hispanics"></span> Hispanics</a>
   </nav>
 </footer>
