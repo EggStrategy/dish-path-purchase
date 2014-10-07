@@ -5,8 +5,16 @@ $(function(){
   logoFade = function() {
     $(window).scroll(function(){
       var windowPos = $(window).scrollTop();
+      var windowHeight = $(window).height(); // get the height of the window
+      var docHeight = $(document).height();
+      var fullViewHeight = $('#full-view').height();
       var fullViewPos = $('#full-view').offset().top;
       var logo = $('.dish-logo');
+      
+      console.log(fullViewHeight);
+      console.log(windowPos);
+      console.log(fullViewHeight + windowPos);
+      console.log(docHeight);
       
       if (windowPos < (fullViewPos - 40)) {
         logo.fadeOut();
@@ -155,7 +163,7 @@ $(function(){
   }
     
   // sectionHeight();
-  logoFade();
+  // logoFade();
   sectionNavScroll();
   segmentNav();
   waterDrops();

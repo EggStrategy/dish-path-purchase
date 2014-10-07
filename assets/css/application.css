@@ -177,13 +177,13 @@ em {
 .icon-enthusiasts {
   width: 47px;
   height: 50px;
-  background: url('/assets/images/icon-enthusiasts.svg?1411503498') no-repeat;
+  background: url('/assets/images/icon-enthusiasts.svg?1412217364') no-repeat;
 }
 
 .icon-flexibles {
   width: 47px;
   height: 51px;
-  background: url('/assets/images/icon-flexibles.svg?1411503539') no-repeat;
+  background: url('/assets/images/icon-flexibles.svg?1412217364') no-repeat;
 }
 
 .icon-indulgers {
@@ -195,13 +195,13 @@ em {
 .icon-traditionals {
   width: 51px;
   height: 52px;
-  background: url('/assets/images/icon-traditionals.svg?1411502071') no-repeat;
+  background: url('/assets/images/icon-traditionals.svg?1412217364') no-repeat;
 }
 
 .icon-hispanics {
   width: 47px;
   height: 50px;
-  background: url('/assets/images/icon-hispanics.svg?1411500751') no-repeat;
+  background: url('/assets/images/icon-hispanics.svg?1412217364') no-repeat;
 }
 
 [class*="icon-mood-"] {
@@ -272,7 +272,7 @@ em {
 .arrows-all {
   width: 18px;
   height: 41px;
-  background: url('/assets/images/arrows-all.svg?1411498783') no-repeat;
+  background: url('/assets/images/arrows-all.svg?1412217364') no-repeat;
 }
 
 .arrow-up-full-view {
@@ -288,7 +288,7 @@ em {
 }
 
 [class*="arrow-thinking-"] {
-  background: url('/assets/images/arrows.svg?1411505143') no-repeat;
+  background: url('/assets/images/arrows.svg?1412217364') no-repeat;
   width: 31px;
   height: 11px;
 }
@@ -849,7 +849,7 @@ a {
   position: absolute;
   top: -10px;
   left: 0;
-  background: url('/assets/images/arrow-triggers-hisp.png?1411505877') no-repeat;
+  background: url('/assets/images/arrow-triggers-hisp.png?1412217364') no-repeat;
   width: 80px;
   height: 140px;
 }
@@ -1279,7 +1279,7 @@ a {
 
 .full-view {
   height: 850px;
-  background: #6c6c6c url('/assets/images/bg-full-view-gradient.jpg?1411589504') repeat-x left top;
+  background: #6c6c6c url('/assets/images/bg-full-view-gradient.jpg?1412217364') repeat-x left top;
 }
 
 .full-fountain {
@@ -1289,7 +1289,7 @@ a {
   right: 0;
   width: 100%;
   height: 100%;
-  background: url('/assets/images/bg-full-view.jpg?1411587721') no-repeat center top;
+  background: url('/assets/images/bg-full-view.jpg?1412217364') no-repeat center top;
 }
 
 .full-view-left,
@@ -1382,8 +1382,8 @@ a {
 }
 
 .dish-logo {
-  position: fixed;
-  top: 36px;
+  position: absolute;
+  top: 72px;
   left: 72px;
   z-index: 20;
 }
@@ -1488,35 +1488,35 @@ a {
   left: 54px;
   width: 91px;
   height: 246px;
-  background: url('/assets/images/path-enthusiasts.png?1411503147') no-repeat;
+  background: url('/assets/images/path-enthusiasts.png?1412217364') no-repeat;
 }
 
 .path-flexibles {
   right: 34px;
   width: 111px;
   height: 359px;
-  background: url('/assets/images/path-flexibles.png?1411503198') no-repeat;
+  background: url('/assets/images/path-flexibles.png?1412217364') no-repeat;
 }
 
 .path-indulgers {
   left: 28px;
   width: 118px;
   height: 473px;
-  background: url('/assets/images/path-indulgers.png?1411503015') no-repeat;
+  background: url('/assets/images/path-indulgers.png?1412217364') no-repeat;
 }
 
 .path-traditionals {
   right: 16px;
   width: 132px;
   height: 588px;
-  background: url('/assets/images/path-traditionals.png?1411503252') no-repeat;
+  background: url('/assets/images/path-traditionals.png?1412217364') no-repeat;
 }
 
 .path-hispanics {
   left: 12px;
   width: 134px;
   height: 700px;
-  background: url('/assets/images/path-hispanics.png?1411502851') no-repeat;
+  background: url('/assets/images/path-hispanics.png?1412217364') no-repeat;
 }
 
 .stage-1 .stage-right {
@@ -1592,7 +1592,7 @@ a {
   right: 0;
   width: 515px;
   height: 612px;
-  background: url('/assets/images/paths-circles-s4.png?1411505364') no-repeat;
+  background: url('/assets/images/paths-circles-s4.png?1412217364') no-repeat;
 }
 
 .stage-4 .triggers {
@@ -1635,7 +1635,7 @@ a {
   right: 302px;
   width: 355px;
   height: 386px;
-  background: url('/assets/images/circles-s5.png?1411505509') no-repeat;
+  background: url('/assets/images/circles-s5.png?1412217364') no-repeat;
 }
 
 .stage-5 .arrows {

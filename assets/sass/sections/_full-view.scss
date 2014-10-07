@@ -105,8 +105,8 @@
 }
 
 .dish-logo {
-  position: fixed;
-  top: 36px;
+  position: absolute;
+  top: 72px;
   left: 72px;
   z-index: 20;
   
@@ -125,6 +125,4 @@
     background: $logo-dish no-repeat;
   }
 }
-
-
 
